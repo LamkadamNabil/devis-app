@@ -9,6 +9,7 @@ import DevisSummary from './components/DevisSummary'
 import PrintView from './components/PrintView'
 import DevisHistory from './components/DevisHistory'
 import AgenceSelector from './components/AgenceSelector'
+import LoginScreen from './components/LoginScreen'
 import * as api from './services/googleSheetsService'
 import './index.css'
 
@@ -27,6 +28,9 @@ const getCurrentDate = () => {
 }
 
 export default function App() {
+  const [authenticated, setAuthenticated] = useState(
+    () => sessionStorage.getItem('devis_auth') === 'true'
+  )
   const [clients, setClients] = useState(initialClients)
   const [agences, setAgences] = useState(initialAgences)
   const [devisHistory, setDevisHistory] = useState([])
@@ -212,6 +216,10 @@ export default function App() {
     setSelectedClient(devis.client)
     setLignes(devis.lignes)
     setPrintMode(true)
+  }
+
+  if (!authenticated) {
+    return <LoginScreen onLogin={() => setAuthenticated(true)} />
   }
 
   if (loading) {

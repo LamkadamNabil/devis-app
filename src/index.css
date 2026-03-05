@@ -1167,3 +1167,76 @@ tr:hover td { background: var(--gray-light); }
   background: #fef3c7;
   color: #92400e;
 }
+
+/* ===================== LOGIN ===================== */
+.login-overlay {
+  min-height: 100vh;
+  background: #f0f4f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-box {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,.12);
+  padding: 40px 48px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin-bottom: 32px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: left;
+}
+
+.login-label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #374151;
+}
+
+.login-input {
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-size: 15px;
+  outline: none;
+  transition: border-color .2s;
+}
+
+.login-input:focus {
+  border-color: var(--blue);
+  box-shadow: 0 0 0 3px rgba(26,86,219,.15);
+}
+
+.login-error {
+  background: #fef2f2;
+  color: var(--red);
+  border: 1px solid #fecaca;
+  border-radius: var(--radius);
+  padding: 8px 12px;
+  font-size: 13px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 11px;
+  font-size: 15px;
+  margin-top: 4px;
+}
