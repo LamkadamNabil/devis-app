@@ -1,0 +1,13 @@
+/* SOGERAY Logo - SVG version */
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 80">
+  <!-- Orbiting rings -->
+  <ellipse cx="45" cy="40" rx="35" ry="18" fill="none" stroke="#c0392b" stroke-width="3" transform="rotate(-15 45 40)"/>
+  <ellipse cx="45" cy="40" rx="28" ry="14" fill="none" stroke="#7f8c8d" stroke-width="2.5" transform="rotate(25 45 40)"/>
+  <circle cx="45" cy="40" r="8" fill="#c0392b"/>
+  
+  <!-- SOGERAY text -->
+  <text x="95" y="50" font-family="Arial, sans-serif" font-size="38" font-weight="bold" fill="#7f8c8d" letter-spacing="2">SOGERAY</text>
+  
+  <!-- Subtitle -->
+  <text x="95" y="70" font-family="Arial, sans-serif" font-size="11" fill="#95a5a6" letter-spacing="1">Entreprise de Bâtiment &amp; Transport de Marchandises</text>
+</svg>

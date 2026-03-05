@@ -1,0 +1,3370 @@
+[
+  {
+    "CODE": 2011461.0,
+    "designation": "DÉMOLITION & DÉPOSE (Y/C ÉVACUATION AUX DÉCHARGES PUBLIQUES)",
+    "unite": "F",
+    "prix_initial": 2500.0,
+    "prix_actuel": 3000.0,
+    "difference": -500.0
+  },
+  {
+    "CODE": 2011462.0,
+    "designation": "DÉPOSE SOIGNÉE DES MENUISERIES BOIS, MÉTALLIQUE, ALUMINIUM, PANNEAU EN BOIS ETC (Y/C ÉVACUATION AUX DÉCHARGES PUBLIQUES)",
+    "unite": "F",
+    "prix_initial": 23.0,
+    "prix_actuel": 1000.0,
+    "difference": -977.0
+  },
+  {
+    "CODE": 2011463.0,
+    "designation": "DÉMOLITION DES BÉTONS ARMÉS EN FONDATION ET ÉLÉVATION Y COMPRIS À LA DÉCHARGE PUBLIQUE",
+    "unite": "M³",
+    "prix_initial": 130.0,
+    "prix_actuel": 150.0,
+    "difference": -20.0
+  },
+  {
+    "CODE": 2011464.0,
+    "designation": "DÉMOLITION DES MAÇONNERIES PLEINES OU CREUSES Y COMPRIS ÉVACUATION AUX DÉCHARGES PUBLIQUES",
+    "unite": "M²",
+    "prix_initial": 15.0,
+    "prix_actuel": 40.0,
+    "difference": -25.0
+  },
+  {
+    "CODE": 2011465.0,
+    "designation": "DÉMOLITION DE FAUX PLAFOND EN STAFF OU MÉTALLIQUE Y COMPRIS ÉVACUATION AUX DÉCHARGES PUBLIQUES",
+    "unite": "M²",
+    "prix_initial": 15.0,
+    "prix_actuel": 30.0,
+    "difference": -15.0
+  },
+  {
+    "CODE": 2011466.0,
+    "designation": "DÉMOLITION DES REVÊTEMENTS DURS ET SOUPLES COMPRIS FORME EN BÉTON (CARREAUX ET MARBRE) Y COMPRIS ÉVACUATION À LA DÉCHARGE PUBLIQUE",
+    "unite": "M²",
+    "prix_initial": 15.0,
+    "prix_actuel": 40.0,
+    "difference": -25.0
+  },
+  {
+    "CODE": null,
+    "designation": "GROS OUEVRES",
+    "unite": null,
+    "prix_initial": null,
+    "prix_actuel": null,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011467.0,
+    "designation": "PIQUAGE DES ENDUITS AU MORTIER DE CIMENT OU EN PLÂTRE",
+    "unite": "M²",
+    "prix_initial": 15.0,
+    "prix_actuel": 15.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011468.0,
+    "designation": "DÉMOLITION DU COMPLEXE D'ÉTANCHÉITÉ Y COMPRIS PROTECTION, RELEVÉS, ET ÉVACUATION DES GRAVOIS À LA DÉCHARGE PUBLIQUE",
+    "unite": "M²",
+    "prix_initial": 20.0,
+    "prix_actuel": 20.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011469.0,
+    "designation": "DÉPOSE DES APPAREILS SANITAIRES Y COMPRIS TUYAUTERIES",
+    "unite": "U",
+    "prix_initial": 50.0,
+    "prix_actuel": 50.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011470.0,
+    "designation": "DÉPOSE DES APPAREILS ÉLECTRIQUES Y COMPRIS CÂBLAGE",
+    "unite": "ENS",
+    "prix_initial": 20.0,
+    "prix_actuel": 500.0,
+    "difference": -480.0
+  },
+  {
+    "CODE": 2011471.0,
+    "designation": "INSTALLATION DU CHANTIER (Y/C PALISSADE DU CHANTIER)",
+    "unite": "F",
+    "prix_initial": 4000.0,
+    "prix_actuel": 4000.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011472.0,
+    "designation": "FOUILLE EN PLEINE MASSE DANS TOUS TERRAINS",
+    "unite": "M³",
+    "prix_initial": 30.0,
+    "prix_actuel": 80.0,
+    "difference": -50.0
+  },
+  {
+    "CODE": 2011473.0,
+    "designation": "FOUILLES EN TRANCHÉES - RIGOLES OU PUITS DANS TOUS TERRAINS Y COMPRIS ROCHER",
+    "unite": "M³",
+    "prix_initial": 50.0,
+    "prix_actuel": 80.0,
+    "difference": -30.0
+  },
+  {
+    "CODE": 2011474.0,
+    "designation": "EVACUATION DES DÉBLAIS EXCÉDENTAIRES OU MISE EN REMBLAIS",
+    "unite": "M³",
+    "prix_initial": 80.0,
+    "prix_actuel": 80.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011475.0,
+    "designation": "APPORT ET MISE EN PLACE DE TOUT VENANT COMPACTÉ",
+    "unite": "M³",
+    "prix_initial": 72.0,
+    "prix_actuel": 180.0,
+    "difference": -108.0
+  },
+  {
+    "CODE": 2011476.0,
+    "designation": "BÉTON DE PROPRETÉ",
+    "unite": "M³",
+    "prix_initial": 600.0,
+    "prix_actuel": 600.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011477.0,
+    "designation": "GROS BÉTON POUR FONDATIONS",
+    "unite": "M³",
+    "prix_initial": 850.0,
+    "prix_actuel": 650.0,
+    "difference": 200.0
+  },
+  {
+    "CODE": 2011478.0,
+    "designation": "BÉTON EN FONDATION COMPRIS COFFRAGE",
+    "unite": "M³",
+    "prix_initial": 1200.0,
+    "prix_actuel": 1200.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011479.0,
+    "designation": "BÉTON POUR CHEMISAGE ET RENFORCEMENT DES BÉTONS EN FONDATION OU ÉLÉVATION Y COMPRIS SCELLEMENTS",
+    "unite": "M³",
+    "prix_initial": 800.0,
+    "prix_actuel": 1100.0,
+    "difference": -300.0
+  },
+  {
+    "CODE": 2011480.0,
+    "designation": "ARMATURE À HAUTE LIMITE ÉLASTIQUE POUR BA EN FONDATION",
+    "unite": "KG",
+    "prix_initial": 16.0,
+    "prix_actuel": 17.0,
+    "difference": -1.0
+  },
+  {
+    "CODE": 2011481.0,
+    "designation": "POUR REGARD DE 0,40 X 0,40M",
+    "unite": "U",
+    "prix_initial": 350.0,
+    "prix_actuel": 490.0,
+    "difference": -140.0
+  },
+  {
+    "CODE": 2011482.0,
+    "designation": "POUR REGARD DE 0,50 X 0,50M",
+    "unite": "U",
+    "prix_initial": 500.0,
+    "prix_actuel": 500.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011483.0,
+    "designation": "POUR REGARD DE 0,60 X 0,60M",
+    "unite": "U",
+    "prix_initial": 590.0,
+    "prix_actuel": 590.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011484.0,
+    "designation": "POUR REGARD DE 0,80 X 0,80M",
+    "unite": "U",
+    "prix_initial": 700.0,
+    "prix_actuel": 700.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011485.0,
+    "designation": "BUSES EN PVC D.110",
+    "unite": "ML",
+    "prix_initial": 90.0,
+    "prix_actuel": 100.0,
+    "difference": -10.0
+  },
+  {
+    "CODE": 2011486.0,
+    "designation": "BUSES EN PVC D.160",
+    "unite": "ML",
+    "prix_initial": 110.0,
+    "prix_actuel": 120.0,
+    "difference": -10.0
+  },
+  {
+    "CODE": 2011487.0,
+    "designation": "BUSES EN PVC D.200",
+    "unite": "ML",
+    "prix_initial": 120.0,
+    "prix_actuel": 130.0,
+    "difference": -10.0
+  },
+  {
+    "CODE": 2011488.0,
+    "designation": "BUSES EN PVC D.250",
+    "unite": "ML",
+    "prix_initial": 140.0,
+    "prix_actuel": 180.0,
+    "difference": -40.0
+  },
+  {
+    "CODE": 2011489.0,
+    "designation": "CANIVEAUX EN BÉTON POUR ÉVACUATIONS",
+    "unite": "ML",
+    "prix_initial": 350.0,
+    "prix_actuel": 450.0,
+    "difference": -100.0
+  },
+  {
+    "CODE": 2011490.0,
+    "designation": "BRANCHEMENT À L'ÉGOUT",
+    "unite": "U",
+    "prix_initial": 380.0,
+    "prix_actuel": 380.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011491.0,
+    "designation": "MISE À LA TERRE EN CÂBLE CUIVRE NU 35MM²",
+    "unite": "ENS",
+    "prix_initial": 450.0,
+    "prix_actuel": 500.0,
+    "difference": -50.0
+  },
+  {
+    "CODE": 2011492.0,
+    "designation": "CHAMBRE DE TIRAGE CÂBLAGE ÉLECTRIQUE",
+    "unite": "U",
+    "prix_initial": 450.0,
+    "prix_actuel": 500.0,
+    "difference": -50.0
+  },
+  {
+    "CODE": 2011493.0,
+    "designation": "TRAVERSÉE DE MUR",
+    "unite": "U",
+    "prix_initial": 90.0,
+    "prix_actuel": 200.0,
+    "difference": -110.0
+  },
+  {
+    "CODE": 2011494.0,
+    "designation": "HÉRISSON EN PIERRE SÈCHES DE 0,20 D'ÉPAISSEUR OU TOUT VENANT",
+    "unite": "M²",
+    "prix_initial": 80.0,
+    "prix_actuel": 80.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011495.0,
+    "designation": "POLYÉTHYLÈNE",
+    "unite": "M²",
+    "prix_initial": 70.0,
+    "prix_actuel": 11.0,
+    "difference": 59.0
+  },
+  {
+    "CODE": 2011496.0,
+    "designation": "FORME EN BÉTON DE 0,10M D'ÉPAISSEUR",
+    "unite": "M²",
+    "prix_initial": 90.0,
+    "prix_actuel": 90.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011497.0,
+    "designation": "ARMATURE DE FORME EN ACIER TOR",
+    "unite": "KG",
+    "prix_initial": 17.0,
+    "prix_actuel": 17.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011498.0,
+    "designation": "RENFORMIS EN BÉTON",
+    "unite": "M³",
+    "prix_initial": 120.0,
+    "prix_actuel": 220.0,
+    "difference": -100.0
+  },
+  {
+    "CODE": 2011499.0,
+    "designation": "BÉTON EN ÉLÉVATION COMPRIS COFFRAGE",
+    "unite": "M³",
+    "prix_initial": 990.0,
+    "prix_actuel": 990.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011500.0,
+    "designation": "RÉFECTION DES ÉLÉMENTS DE STRUCTURE BA (POTEAUX, POUTRES, DALLES, CHAINAGES, ETC)",
+    "unite": "M²",
+    "prix_initial": 125.0,
+    "prix_actuel": 1100.0,
+    "difference": -975.0
+  },
+  {
+    "CODE": 2011501.0,
+    "designation": "DALLETTES EN BÉTON ARMÉ",
+    "unite": "M²",
+    "prix_initial": 120.0,
+    "prix_actuel": 1100.0,
+    "difference": -980.0
+  },
+  {
+    "CODE": 2011502.0,
+    "designation": "ARMATURE À HAUTE ADHÉRENCE",
+    "unite": "KG",
+    "prix_initial": 17.0,
+    "prix_actuel": 17.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011503.0,
+    "designation": "RAGRÉAGE DE BÉTON",
+    "unite": "M²",
+    "prix_initial": 65.0,
+    "prix_actuel": 65.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011504.0,
+    "designation": "BÉTON POUR TOUT OUVRAGE EN ÉLÉVATION AVEC ACCÉLÉRATEUR DE PRISE LIQUIDE",
+    "unite": "M³",
+    "prix_initial": 950.0,
+    "prix_actuel": 1100.0,
+    "difference": -150.0
+  },
+  {
+    "CODE": 2011505.0,
+    "designation": "ARMATURES HA POUR TOUT OUVRAGE EN ÉLÉVATION Y COMPRIS SCELLEMENT LA RÉSINE",
+    "unite": "KG",
+    "prix_initial": 17.0,
+    "prix_actuel": 17.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011506.0,
+    "designation": "MURS EN AGGLOS CREUX DE CIMENT DE 20CM",
+    "unite": "M²",
+    "prix_initial": 160.0,
+    "prix_actuel": 180.0,
+    "difference": -20.0
+  },
+  {
+    "CODE": 2011507.0,
+    "designation": "CLOISONS EN BRIQUES CREUSES 8 TROUS",
+    "unite": "M²",
+    "prix_initial": 100.0,
+    "prix_actuel": 130.0,
+    "difference": -30.0
+  },
+  {
+    "CODE": 2011508.0,
+    "designation": "CLOISONS EN BRIQUES CREUSES 6 TROUS DE 6,5",
+    "unite": "M²",
+    "prix_initial": 90.0,
+    "prix_actuel": 120.0,
+    "difference": -30.0
+  },
+  {
+    "CODE": 2011509.0,
+    "designation": "DOUBLE CLOISONS EN BRIQUES 6TROUS + 8 TROUS",
+    "unite": "M²",
+    "prix_initial": 145.0,
+    "prix_actuel": 180.0,
+    "difference": -35.0
+  },
+  {
+    "CODE": 2011510.0,
+    "designation": "ISOLATION THERMIQUE DES PAROIS EXTÉRIEURES EN PANNEAUX DE LAINE DE ROCHE EP 8CM",
+    "unite": "M²",
+    "prix_initial": 80.0,
+    "prix_actuel": 80.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011511.0,
+    "designation": "ENDUIT INTÉRIEUR AU MORTIER DE CIMENT SUR MURS (Y COMPRIS BAGUETTES D'ANGLES), JOINTS CREUX, BANDE DE GRILLAGE GALVANISÉ",
+    "unite": "M²",
+    "prix_initial": 60.0,
+    "prix_actuel": 60.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011512.0,
+    "designation": "ENDUIT INTÉRIEUR AU PLÂTRE SUR MURS ET PLAFONDS",
+    "unite": "M²",
+    "prix_initial": 55.0,
+    "prix_actuel": 55.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011513.0,
+    "designation": "ENDUIT EXTÉRIEUR AU MORTIER BÂTARD SUR MURS ET PLAFONDS",
+    "unite": "M²",
+    "prix_initial": 65.0,
+    "prix_actuel": 65.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011514.0,
+    "designation": "REPIQUAGE ET REPRISE DES ENDUITS",
+    "unite": "M²",
+    "prix_initial": 25.0,
+    "prix_actuel": 30.0,
+    "difference": -5.0
+  },
+  {
+    "CODE": 2011515.0,
+    "designation": "CUVELAGE ÉTANCHE AU SOLS ET MURS",
+    "unite": "M²",
+    "prix_initial": 80.0,
+    "prix_actuel": 80.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011516.0,
+    "designation": "APPUIS DE FENÊTRE EN BÉTON PRÉFABRIQUÉS",
+    "unite": "ML",
+    "prix_initial": 80.0,
+    "prix_actuel": 120.0,
+    "difference": -40.0
+  },
+  {
+    "CODE": 2011517.0,
+    "designation": "ENCADREMENT EN BÉTON DES BAIES POUR CHÂSSIS ALUMINIUM",
+    "unite": "ML",
+    "prix_initial": 110.0,
+    "prix_actuel": 120.0,
+    "difference": -10.0
+  },
+  {
+    "CODE": 2011518.0,
+    "designation": "POSE DE CADRE OU PRÉCADRE EN BOIS + MÉTAL + ALUMINIUM",
+    "unite": "U",
+    "prix_initial": 100.0,
+    "prix_actuel": 100.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011519.0,
+    "designation": "SCELLEMENT D'APPAREILS SANITAIRES",
+    "unite": "U",
+    "prix_initial": 80.0,
+    "prix_actuel": 80.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011520.0,
+    "designation": "DÉPOSE ET REMPLACEMENT DE LA TRAPPE MÉTALLIQUE DE LA BÂCHE À EAU ET NICHE DE LA POMPE",
+    "unite": "U",
+    "prix_initial": 130.0,
+    "prix_actuel": 600.0,
+    "difference": -470.0
+  },
+  {
+    "CODE": 2011521.0,
+    "designation": "SOCLES ANTI-VIBRATILE: SOCLE DU CHÂTEAU D'EAU",
+    "unite": "U",
+    "prix_initial": 135.0,
+    "prix_actuel": 800.0,
+    "difference": -665.0
+  },
+  {
+    "CODE": 2011522.0,
+    "designation": "SOCLES ANTI-VIBRATILE: SOCLE POUR LES UNITÉS EXTÉRIEURS CLIM",
+    "unite": "U",
+    "prix_initial": 100.0,
+    "prix_actuel": 800.0,
+    "difference": -700.0
+  },
+  {
+    "CODE": 2011523.0,
+    "designation": "PAVÉE DE VERRE",
+    "unite": "M²",
+    "prix_initial": 700.0,
+    "prix_actuel": 750.0,
+    "difference": -50.0
+  },
+  {
+    "CODE": 2011524.0,
+    "designation": "TRAVAUX DE MODIFICATION DE L'OUVERTURE DU GAB",
+    "unite": "F",
+    "prix_initial": 1600.0,
+    "prix_actuel": 800.0,
+    "difference": 800.0
+  },
+  {
+    "CODE": 2011525.0,
+    "designation": "PUITS PERDUS",
+    "unite": "U",
+    "prix_initial": 450.0,
+    "prix_actuel": 1000.0,
+    "difference": -550.0
+  },
+  {
+    "CODE": 2011526.0,
+    "designation": "FORME DE PENTE Y COMPRIS CHAPE DE LISSAGE",
+    "unite": "M²",
+    "prix_initial": 40.0,
+    "prix_actuel": 40.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011527.0,
+    "designation": "ECRAN PARE - VAPEUR",
+    "unite": "M²",
+    "prix_initial": 35.0,
+    "prix_actuel": 35.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011528.0,
+    "designation": "ISOLATION THERMIQUE",
+    "unite": "M²",
+    "prix_initial": 105.0,
+    "prix_actuel": 120.0,
+    "difference": -15.0
+  },
+  {
+    "CODE": 2011529.0,
+    "designation": "REVÊTEMENT D'ÉTANCHÉITÉ DES TERRASSES SUIVANT D.T.U",
+    "unite": "M²",
+    "prix_initial": 90.0,
+    "prix_actuel": 180.0,
+    "difference": -90.0
+  },
+  {
+    "CODE": 2011530.0,
+    "designation": "PROTECTION D'ÉTANCHÉITÉ",
+    "unite": "M²",
+    "prix_initial": 65.0,
+    "prix_actuel": 65.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011531.0,
+    "designation": "ETANCHÉITÉ DES RELEVÉS SUIVANT D.T.U POUR TERRASSES ACCESSIBLES ET INACCESSIBLES",
+    "unite": "ML",
+    "prix_initial": 85.0,
+    "prix_actuel": 60.0,
+    "difference": 25.0
+  },
+  {
+    "CODE": 2011532.0,
+    "designation": "PROTECTION DES RELEVÉS",
+    "unite": "ML",
+    "prix_initial": 40.0,
+    "prix_actuel": 50.0,
+    "difference": -10.0
+  },
+  {
+    "CODE": 2011533.0,
+    "designation": "RACCORDEMENT DES EAUX PLUVIALES",
+    "unite": "U",
+    "prix_initial": 90.0,
+    "prix_actuel": 130.0,
+    "difference": -40.0
+  },
+  {
+    "CODE": 2011534.0,
+    "designation": "TRAVERSÉE D'ÉTANCHÉITÉ",
+    "unite": "U",
+    "prix_initial": 80.0,
+    "prix_actuel": 110.0,
+    "difference": -30.0
+  },
+  {
+    "CODE": 2011535.0,
+    "designation": "ETANCHÉITÉ AUTOPROTEGÉE EN TERRASSES",
+    "unite": "M²",
+    "prix_initial": 130.0,
+    "prix_actuel": 140.0,
+    "difference": -10.0
+  },
+  {
+    "CODE": 2011536.0,
+    "designation": "ETANCHÉITÉ VERTICALE",
+    "unite": "M²",
+    "prix_initial": 120.0,
+    "prix_actuel": 120.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011537.0,
+    "designation": "ETANCHÉITÉ LÉGÈRE DES SALLES D'EAU",
+    "unite": "M²",
+    "prix_initial": 120.0,
+    "prix_actuel": 85.0,
+    "difference": 35.0
+  },
+  {
+    "CODE": 2011538.0,
+    "designation": "ETANCHÉITÉ DES JARDINIÈRES",
+    "unite": "M²",
+    "prix_initial": 115.0,
+    "prix_actuel": 160.0,
+    "difference": -45.0
+  },
+  {
+    "CODE": 2011539.0,
+    "designation": "TRAITEMENT DE JOINT DE DILATATION",
+    "unite": "ML",
+    "prix_initial": 70.0,
+    "prix_actuel": 120.0,
+    "difference": -50.0
+  },
+  {
+    "CODE": 2011540.0,
+    "designation": "REVÊTEMENTS DES TERRASSES EN CARREAUX DE CIMENT DE 20X20",
+    "unite": "M²",
+    "prix_initial": 100.0,
+    "prix_actuel": 125.0,
+    "difference": -25.0
+  },
+  {
+    "CODE": 2011541.0,
+    "designation": "PLINTHES EN CARREAU ROUGE",
+    "unite": "ML",
+    "prix_initial": 35.0,
+    "prix_actuel": 22.0,
+    "difference": 13.0
+  },
+  {
+    "CODE": 2011542.0,
+    "designation": "FAUX PLAFONDS EN STAFF LISSE Y COMPRIS JOINTS CREUX DE TOUTES DIMENSIONS - GORGES ET RETOMBÉES",
+    "unite": "M²",
+    "prix_initial": 140.0,
+    "prix_actuel": 150.0,
+    "difference": -10.0
+  },
+  {
+    "CODE": 2011543.0,
+    "designation": "FAUX PLAFOND MODULAIRE DE 600 X 600MM TYPE GYPTONE OU LAFARGE",
+    "unite": "M²",
+    "prix_initial": 195.0,
+    "prix_actuel": 195.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011544.0,
+    "designation": "POUR FAUX PLAFOND EN PLAQUE BA13 Y COMPRIS PLAGE PÉRIPHÉRIQUE, LAINE DE ROCHE, JOINTS CREUX DE TOUTES SECTIONS ET RETOMBÉES DE TOUTE HAUTEUR",
+    "unite": "M²",
+    "prix_initial": 220.0,
+    "prix_actuel": 220.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011545.0,
+    "designation": "POUR FAUX PLAFONDS EN PLAQUES DE PLÂTRE TYPE BA13 HYDROFUGE Y COMPRIS PLAGE PÉRIPHÉRIQUE, JOINTS CREUX DE TOUTES SECTIONS ET RETOMBÉES DE TOUTES NATURES",
+    "unite": "M²",
+    "prix_initial": 225.0,
+    "prix_actuel": 240.0,
+    "difference": -15.0
+  },
+  {
+    "CODE": 2011546.0,
+    "designation": "FAUX PLAFOND 600 X 600MM ACOUSTIQUE TYPE ROKFON YC STRUCTURE INVISIBLE Y COMPRIS ISOLATION",
+    "unite": "M²",
+    "prix_initial": 310.0,
+    "prix_actuel": 330.0,
+    "difference": -20.0
+  },
+  {
+    "CODE": 2011547.0,
+    "designation": "FAUX PLAFOND MÉTALLIQUE",
+    "unite": "M²",
+    "prix_initial": 370.0,
+    "prix_actuel": 900.0,
+    "difference": -530.0
+  },
+  {
+    "CODE": 2011548.0,
+    "designation": "TALOCHE EN PLAFOND ET SUR MURS",
+    "unite": "M²",
+    "prix_initial": 55.0,
+    "prix_actuel": 55.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011549.0,
+    "designation": "BARRIÈRE PHONIQUES MARQUE ROCKFON -ACCOUSTIMAS",
+    "unite": "M²",
+    "prix_initial": 275.0,
+    "prix_actuel": 350.0,
+    "difference": -75.0
+  },
+  {
+    "CODE": 2011550.0,
+    "designation": "VARIANTE: BARRIÈRE PHONIQUE",
+    "unite": "M²",
+    "prix_initial": 240.0,
+    "prix_actuel": 250.0,
+    "difference": -10.0
+  },
+  {
+    "CODE": 2011551.0,
+    "designation": "TRAPPE KNAUF STAR DE 0,40 X 0,40M",
+    "unite": "U",
+    "prix_initial": 250.0,
+    "prix_actuel": 300.0,
+    "difference": -50.0
+  },
+  {
+    "CODE": 2011552.0,
+    "designation": "TRAPPE KNAUF STAR DE 0,60 X 0,60M",
+    "unite": "U",
+    "prix_initial": 400.0,
+    "prix_actuel": 400.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011553.0,
+    "designation": "TRAPPE KNAUF STAR DE 0,60 X 1,20M",
+    "unite": "U",
+    "prix_initial": 600.0,
+    "prix_actuel": 600.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011554.0,
+    "designation": "CLOISON DE DISTRIBUTION TYPE COMPOSITE COUPE FEU1H",
+    "unite": "M²",
+    "prix_initial": 380.0,
+    "prix_actuel": 380.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011555.0,
+    "designation": "CLOISON DE DISTRIBUTION SIMPLE HYDROFUGE 72/48",
+    "unite": "M²",
+    "prix_initial": 360.0,
+    "prix_actuel": 360.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011556.0,
+    "designation": "CLOISON EN PLAQUE 2 X BA13 SUR STRUCTURE MÉTALLIQUE",
+    "unite": "M²",
+    "prix_initial": 450.0,
+    "prix_actuel": 450.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011557.0,
+    "designation": "DOUBLAGE EN PLAQUE DE PLÂTRE SUR OSSATURE",
+    "unite": "M²",
+    "prix_initial": 350.0,
+    "prix_actuel": 400.0,
+    "difference": -50.0
+  },
+  {
+    "CODE": 2011558.0,
+    "designation": "RACCORD DE FINITION ENTRE LA CLOISON ET LA FENÊTRE",
+    "unite": "U",
+    "prix_initial": 135.0,
+    "prix_actuel": 250.0,
+    "difference": -115.0
+  },
+  {
+    "CODE": 2011559.0,
+    "designation": "PEINTURE EXTRALITE POUR RAVALEMENT MURS - PLAFONDS EXTÉRIEURS (2 COUCHES)",
+    "unite": "M²",
+    "prix_initial": 25.0,
+    "prix_actuel": 32.0,
+    "difference": -7.0
+  },
+  {
+    "CODE": 2011560.0,
+    "designation": "PEINTURE GLYCÉROPHTALIQUE LAQUÉE SUR MURS ET PLAFONDS (2 COUCHES)",
+    "unite": "M²",
+    "prix_initial": 25.0,
+    "prix_actuel": 35.0,
+    "difference": -10.0
+  },
+  {
+    "CODE": 2011561.0,
+    "designation": "PEINTURE VINYLIQUE SUR MURS INTÉRIEURS (2 COUCHES)",
+    "unite": "M²",
+    "prix_initial": 25.0,
+    "prix_actuel": 28.0,
+    "difference": -3.0
+  },
+  {
+    "CODE": 2011562.0,
+    "designation": "PEINTURE VINYLIQUE SUR PLAFOND ET FAUX PLAFOND EN PLÂTRE (2 COUCHES)",
+    "unite": "M²",
+    "prix_initial": 25.0,
+    "prix_actuel": 28.0,
+    "difference": -3.0
+  },
+  {
+    "CODE": 2011563.0,
+    "designation": "PEINTURE FASÉRIT PROJETÉE SUR MURS (2COUCHES)",
+    "unite": "M²",
+    "prix_initial": 25.0,
+    "prix_actuel": 25.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011564.0,
+    "designation": "PEINTURE SUR BOIS (2 COUCHES)",
+    "unite": "M²",
+    "prix_initial": 39.0,
+    "prix_actuel": 39.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011565.0,
+    "designation": "VERNIS SUR BOIS (2 COUCHES)",
+    "unite": "M²",
+    "prix_initial": 55.0,
+    "prix_actuel": 55.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011566.0,
+    "designation": "PEINTURE SUR MENUISERIE MÉTALLIQUE (2 COUCHES)",
+    "unite": "M²",
+    "prix_initial": 45.0,
+    "prix_actuel": 45.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011567.0,
+    "designation": "PEINTURE SUR ALUMINIUM GRIS (CLOISONS AMOVIBLES BAIES DE FAÇADES) (2 COUCHES)",
+    "unite": "M²",
+    "prix_initial": 50.0,
+    "prix_actuel": 180.0,
+    "difference": -130.0
+  },
+  {
+    "CODE": 2011568.0,
+    "designation": "PEINTURE EXTRALITE SUR MURS ET PLAFONDS EXTÉRIEURS",
+    "unite": "M²",
+    "prix_initial": 32.0,
+    "prix_actuel": 32.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011569.0,
+    "designation": "PEINTURE VINYLIQUE EN EXTÉRIEUR",
+    "unite": "M²",
+    "prix_initial": 30.0,
+    "prix_actuel": 35.0,
+    "difference": -5.0
+  },
+  {
+    "CODE": 2011570.0,
+    "designation": "PEINTURE VINYLIQUE SUR FAUX PLAFOND EN STAFF",
+    "unite": "M²",
+    "prix_initial": 32.0,
+    "prix_actuel": 32.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011571.0,
+    "designation": "PEINTURE ACRYLIQUE SUR MURS INTERIEURS DE MARQUE JOTUN",
+    "unite": "M²",
+    "prix_initial": 40.0,
+    "prix_actuel": 40.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011572.0,
+    "designation": "BADIGEON À LA CHAUX SUR ENDUIT RUSTIQUE",
+    "unite": "M²",
+    "prix_initial": 35.0,
+    "prix_actuel": 35.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011573.0,
+    "designation": "TADELAKT",
+    "unite": "M²",
+    "prix_initial": 130.0,
+    "prix_actuel": 140.0,
+    "difference": -10.0
+  },
+  {
+    "CODE": 2011574.0,
+    "designation": "PEINTURE GLYCÉROPHTALIQUE MATE SUR ENDUITS CIMENT",
+    "unite": "M²",
+    "prix_initial": 30.0,
+    "prix_actuel": 36.0,
+    "difference": -6.0
+  },
+  {
+    "CODE": 2011575.0,
+    "designation": "PEINTURE FASÉRIT PROJETÉE SUR MURS",
+    "unite": "M²",
+    "prix_initial": 30.0,
+    "prix_actuel": 30.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011576.0,
+    "designation": "PEINTURE GLYCÉROPHTALIQUE LAQUÉE SUR ENDUITS CIMENT",
+    "unite": "M²",
+    "prix_initial": 36.0,
+    "prix_actuel": 36.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011577.0,
+    "designation": "MIROIRS ARGENTÉS CLAIR 6MM",
+    "unite": "M²",
+    "prix_initial": 300.0,
+    "prix_actuel": 550.0,
+    "difference": -250.0
+  },
+  {
+    "CODE": 2011578.0,
+    "designation": "MIROIRS ARGENTÉS CLAIR RÉTROÉCLAIRÉ TYPE SAINTGOBAIN, ROCA OU SIMILAIRE",
+    "unite": "M²",
+    "prix_initial": 300.0,
+    "prix_actuel": 600.0,
+    "difference": -300.0
+  },
+  {
+    "CODE": 2011579.0,
+    "designation": "PEINTURE HYDROFUGE",
+    "unite": "M²",
+    "prix_initial": 30.0,
+    "prix_actuel": 30.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011580.0,
+    "designation": "PEINTURE DE SOL ANTI-DÉRAPANTE",
+    "unite": "M²",
+    "prix_initial": 120.0,
+    "prix_actuel": 150.0,
+    "difference": -30.0
+  },
+  {
+    "CODE": 2011581.0,
+    "designation": "PEINTURE VINYLIQUE EN INTÉRIEURE",
+    "unite": "M²",
+    "prix_initial": 30.0,
+    "prix_actuel": 30.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011582.0,
+    "designation": "PEINTURE ANTI-POUSSIÈRE",
+    "unite": "M²",
+    "prix_initial": 120.0,
+    "prix_actuel": 160.0,
+    "difference": -40.0
+  },
+  {
+    "CODE": 2011583.0,
+    "designation": "PRÉPARATION DES MURS EXISTANTS (GRATTAGE /PONÇAGE DU CRÉPIS)",
+    "unite": "M²",
+    "prix_initial": 30.0,
+    "prix_actuel": 45.0,
+    "difference": -15.0
+  },
+  {
+    "CODE": 2011584.0,
+    "designation": "PEINTURE GLYCÉROPHTALIQUE SATINÉE SUR MENUISERIES BOIS",
+    "unite": "M²",
+    "prix_initial": 30.0,
+    "prix_actuel": 50.0,
+    "difference": -20.0
+  },
+  {
+    "CODE": 2011585.0,
+    "designation": "PEINTURE ÉPOXY ANTI-POUSSIÈRE",
+    "unite": "M²",
+    "prix_initial": 140.0,
+    "prix_actuel": 140.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011586.0,
+    "designation": "PEINTURE GLYCÉROPHTALIQUE LAQUÉE SUR MENUISERIE MÉTALLIQUE",
+    "unite": "M²",
+    "prix_initial": 35.0,
+    "prix_actuel": 40.0,
+    "difference": -5.0
+  },
+  {
+    "CODE": 2011587.0,
+    "designation": "PEINTURE SUR CHUTES TUYAUTERIES",
+    "unite": "M²",
+    "prix_initial": 30.0,
+    "prix_actuel": 220.0,
+    "difference": -190.0
+  },
+  {
+    "CODE": 2011588.0,
+    "designation": "SIGNALISATION PARKING (SOLS ET MURS)",
+    "unite": "M²",
+    "prix_initial": 100.0,
+    "prix_actuel": 4000.0,
+    "difference": -3900.0
+  },
+  {
+    "CODE": 2011589.0,
+    "designation": "PEINTURE ACRYLIQUE SUR FAUX PLAFONDS Y COMPRIS PLAGE PÉRIPHÉRIQUE- JOINTS CREUX - GORGES LUMINEUSES OU SIMILAIRE",
+    "unite": "M²",
+    "prix_initial": 30.0,
+    "prix_actuel": 45.0,
+    "difference": -15.0
+  },
+  {
+    "CODE": 2011590.0,
+    "designation": "PEINTURE ACRYLIQUE SUR MURS FINITION MAT",
+    "unite": "M²",
+    "prix_initial": 30.0,
+    "prix_actuel": 40.0,
+    "difference": -10.0
+  },
+  {
+    "CODE": 2011591.0,
+    "designation": "FOURNITURE ET POSE DE PORTE ISOPLANE EN BOIS SAPIN ROUGE À 1 VANTAIL À PEINDRE YC QUINCAILLERIES",
+    "unite": "M²",
+    "prix_initial": 1500.0,
+    "prix_actuel": 1300.0,
+    "difference": 200.0
+  },
+  {
+    "CODE": 2011592.0,
+    "designation": "FOURNITURE ET POSE DE PORTE À 1 VANTAIL ISOPLANE EN FRÊNE YC QUINCAILLERIES",
+    "unite": "M²",
+    "prix_initial": 2000.0,
+    "prix_actuel": 1450.0,
+    "difference": 550.0
+  },
+  {
+    "CODE": 2011593.0,
+    "designation": "FOURNITURE ET POSE DE PORTE À 1 VANTAIL ISOPLANE EN CHÊNE YC QUINCAILLERIES",
+    "unite": "M²",
+    "prix_initial": 2000.0,
+    "prix_actuel": 1450.0,
+    "difference": 550.0
+  },
+  {
+    "CODE": 2011594.0,
+    "designation": "PORTE PLEINE COUPE FEU 1/2H EN BOIS FRÊNE Y COMPRIS VERNIS",
+    "unite": "M²",
+    "prix_initial": 2500.0,
+    "prix_actuel": 2000.0,
+    "difference": 500.0
+  },
+  {
+    "CODE": 2011595.0,
+    "designation": "PORTE COUPE FEU 1/2H FINITION PEINTURE AU PISTOLET",
+    "unite": "M²",
+    "prix_initial": 2500.0,
+    "prix_actuel": 2000.0,
+    "difference": 500.0
+  },
+  {
+    "CODE": 2011596.0,
+    "designation": "FOURNITURE ET POSE DE PORTE ISOPLANE À 1 VANTAIL EN BOIS À PEINDRE FINITION LAQUÉE AU PISTOLET",
+    "unite": "M²",
+    "prix_initial": 1600.0,
+    "prix_actuel": 1350.0,
+    "difference": 250.0
+  },
+  {
+    "CODE": 2011597.0,
+    "designation": "PORTE EN BOIS PARE FLAMME 1/2H À 1 VANTAIL STRATIFIÉ FINITION HABILLAGE FORMICA",
+    "unite": "M²",
+    "prix_initial": 2300.0,
+    "prix_actuel": 2300.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011598.0,
+    "designation": "PORTE PLEINE À 1 VANTAIL AVEC HABILLAGE AUX 2 FACES EN STRATIFIÉE HPL Y COMPRIS QUINCAILLERIES",
+    "unite": "M²",
+    "prix_initial": 2500.0,
+    "prix_actuel": 2500.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011599.0,
+    "designation": "PLACARD EN BOIS FRÊNE À VERNIR",
+    "unite": "M²",
+    "prix_initial": 1500.0,
+    "prix_actuel": 2300.0,
+    "difference": -800.0
+  },
+  {
+    "CODE": 2011600.0,
+    "designation": "PLACARD SOUS PAILLASSE EN BOIS FRÊNE À VERNIR",
+    "unite": "M²",
+    "prix_initial": 1000.0,
+    "prix_actuel": 1600.0,
+    "difference": -600.0
+  },
+  {
+    "CODE": 2011601.0,
+    "designation": "PLACARD EN BOIS SAPIN ROUGE À PEINDRE",
+    "unite": "M²",
+    "prix_initial": 700.0,
+    "prix_actuel": 1200.0,
+    "difference": -500.0
+  },
+  {
+    "CODE": 2011602.0,
+    "designation": "PLACARD SOUS PAILLASSE EN BOIS SAPIN ROUGE",
+    "unite": "M²",
+    "prix_initial": 650.0,
+    "prix_actuel": 1200.0,
+    "difference": -550.0
+  },
+  {
+    "CODE": 2011603.0,
+    "designation": "MEUBLE PLACARD KITCHENETTE EN BOIS LAMINE: MEUBLE SOUS PAILLASSE",
+    "unite": "M²",
+    "prix_initial": 650.0,
+    "prix_actuel": 1200.0,
+    "difference": -550.0
+  },
+  {
+    "CODE": 2011604.0,
+    "designation": "MEUBLE PLACARD KITCHENETTE EN BOIS LAMINE: MEUBLE HAUT EN CRÉDENCE",
+    "unite": "M²",
+    "prix_initial": 650.0,
+    "prix_actuel": 1200.0,
+    "difference": -550.0
+  },
+  {
+    "CODE": 2011605.0,
+    "designation": "FAUX PLANCHER TECHNIQUE Y/C ACCESSOIRES VERINS",
+    "unite": "M²",
+    "prix_initial": 1200.0,
+    "prix_actuel": 990.0,
+    "difference": 210.0
+  },
+  {
+    "CODE": 2011606.0,
+    "designation": "REMISE EN ÉTAT DES PORTES EXISTANTES Y COMPRIS RÉFECTION DES VERNIS ET CHANGEMENT DES QUINCAILLERIES",
+    "unite": "U",
+    "prix_initial": 600.0,
+    "prix_actuel": 600.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011607.0,
+    "designation": "REMISE EN ÉTAT DES PLACARDS EN BOIS EXISTANTS Y COMPRIS RÉFECTION DES QUINCAILLERIES - DES PEINTURES OU VERNIS",
+    "unite": "U",
+    "prix_initial": 600.0,
+    "prix_actuel": 850.0,
+    "difference": -250.0
+  },
+  {
+    "CODE": 2011608.0,
+    "designation": "HABILLAGE MURAL EN PANNEAU HPL Y COMPRIS SUPPORT ET FIXATION",
+    "unite": "M²",
+    "prix_initial": 1200.0,
+    "prix_actuel": 1200.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011609.0,
+    "designation": "HABILLAGE MURAL EN PANNEAU MDF Y COMPRIS SUPPORT ET FIXATION",
+    "unite": "M²",
+    "prix_initial": 1100.0,
+    "prix_actuel": 1200.0,
+    "difference": -100.0
+  },
+  {
+    "CODE": 2011610.0,
+    "designation": "FOURNITURE ET POSE DE MAIN COURANTE EN BOIS FRÊNE",
+    "unite": "ML",
+    "prix_initial": 500.0,
+    "prix_actuel": 350.0,
+    "difference": 150.0
+  },
+  {
+    "CODE": 2011611.0,
+    "designation": "FOURNITURE ET POSE DE CHAMBRANLES EN BOIS: POUR CHAMBRANLES DE PORTE EN FRÊNE",
+    "unite": "U",
+    "prix_initial": 140.0,
+    "prix_actuel": 400.0,
+    "difference": -260.0
+  },
+  {
+    "CODE": 2011612.0,
+    "designation": "FOURNITURE ET POSE DE MAIN COURANTE EN BOIS FRÊNE: POUR CHAMBRANLES DE PORTE EN SAPIN ROUGE",
+    "unite": "U",
+    "prix_initial": 100.0,
+    "prix_actuel": 250.0,
+    "difference": -150.0
+  },
+  {
+    "CODE": 2011613.0,
+    "designation": "PORTE ISOPLANE À 1 VANTAIL EN BOIS Y COMPRIS DOUBLE PAREMENTS EN STRATIFIÉ",
+    "unite": "M²",
+    "prix_initial": 2000.0,
+    "prix_actuel": 1350.0,
+    "difference": 650.0
+  },
+  {
+    "CODE": 2011614.0,
+    "designation": "HABILAGE MURAL EN BOIS STRATIFIÉ",
+    "unite": "M²",
+    "prix_initial": 740.0,
+    "prix_actuel": 1200.0,
+    "difference": -460.0
+  },
+  {
+    "CODE": 2011615.0,
+    "designation": "FOURNITURE ET POSE DE MEUBLES BAS DE RANGEMENT ET CACHE CLIMATISATION IDEM EXISTANTS",
+    "unite": "ML",
+    "prix_initial": 900.0,
+    "prix_actuel": 1200.0,
+    "difference": -300.0
+  },
+  {
+    "CODE": 2011616.0,
+    "designation": "KITCHENETTE POUR ESPACE VIE",
+    "unite": "ML",
+    "prix_initial": 5500.0,
+    "prix_actuel": 1900.0,
+    "difference": 3600.0
+  },
+  {
+    "CODE": 2011617.0,
+    "designation": "ACCESSOIRE KITCHENNETTE: RÉFRIGÉRATEUR BEKO STATIQUE 50L OU SIMILAIRE",
+    "unite": "U",
+    "prix_initial": 3000.0,
+    "prix_actuel": 5000.0,
+    "difference": -2000.0
+  },
+  {
+    "CODE": 2011618.0,
+    "designation": "ACCESSOIRE KITCHENNETTE: RÉFRIGÉRATEUR CANDY STATIQUE 140L OU SIMILAIRE",
+    "unite": "U",
+    "prix_initial": 2500.0,
+    "prix_actuel": 5000.0,
+    "difference": -2500.0
+  },
+  {
+    "CODE": 2011619.0,
+    "designation": "ACCESSOIRE KITCHENNETTE: MICRO-ONDES TAURUS LAURENT OU SIMILAIRE",
+    "unite": "U",
+    "prix_initial": 1800.0,
+    "prix_actuel": 1500.0,
+    "difference": 300.0
+  },
+  {
+    "CODE": 2011620.0,
+    "designation": "FOURNITURE ET POSE DE PORTE MÉTALLIQUE PLEINE",
+    "unite": "M²",
+    "prix_initial": 1350.0,
+    "prix_actuel": 1350.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011621.0,
+    "designation": "FOURNITURE ET POSE DE PORTE MÉTALLIQUE BARREAUDÉE Y COMPRIS QUINCAILLERIE ET PEINTURE",
+    "unite": "M²",
+    "prix_initial": 1400.0,
+    "prix_actuel": 1400.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011622.0,
+    "designation": "PORTE MÉTALLIQUE BLINDÉE",
+    "unite": "M²",
+    "prix_initial": 2800.0,
+    "prix_actuel": 3000.0,
+    "difference": -200.0
+  },
+  {
+    "CODE": 2011623.0,
+    "designation": "GARDE CORPS MÉTALLIQUE DE 1,00M DE HAUTEUR",
+    "unite": "ML",
+    "prix_initial": 600.0,
+    "prix_actuel": 600.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011624.0,
+    "designation": "FOURNITURE ET POSE DE GRILLES DE PROTECTION",
+    "unite": "M²",
+    "prix_initial": 600.0,
+    "prix_actuel": 800.0,
+    "difference": -200.0
+  },
+  {
+    "CODE": 2011625.0,
+    "designation": "FOURNITURE ET POSE DE GRILLE DE PROTECTION POUR ESPACE LSB",
+    "unite": "M²",
+    "prix_initial": 600.0,
+    "prix_actuel": 600.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011626.0,
+    "designation": "GRILLE POUR CANIVEAU",
+    "unite": "ML",
+    "prix_initial": 700.0,
+    "prix_actuel": 950.0,
+    "difference": -250.0
+  },
+  {
+    "CODE": 2011627.0,
+    "designation": "GRILLES DE VENTILATION PERSIENNÉE",
+    "unite": "M²",
+    "prix_initial": 380.0,
+    "prix_actuel": 1300.0,
+    "difference": -920.0
+  },
+  {
+    "CODE": 2011628.0,
+    "designation": "SOCLE MÉTALLIQUE POUR GAB",
+    "unite": "U",
+    "prix_initial": 550.0,
+    "prix_actuel": 600.0,
+    "difference": -50.0
+  },
+  {
+    "CODE": 2011629.0,
+    "designation": "FOURNITURE ET POSE DE CACHE MÉTALLIQUE DES UNITÉS EXTÉRIEURES",
+    "unite": "M²",
+    "prix_initial": 450.0,
+    "prix_actuel": 600.0,
+    "difference": -150.0
+  },
+  {
+    "CODE": 2011630.0,
+    "designation": "ESCALIER MÉTALLIQUE Y COMPRIS REVÊTEMENT DE PROTECTION EN ÉPOXY ET PEINTURE DE FINITION",
+    "unite": "ENS",
+    "prix_initial": 25000.0,
+    "prix_actuel": 29000.0,
+    "difference": -4000.0
+  },
+  {
+    "CODE": 2011631.0,
+    "designation": "PAROI BLINDÉE",
+    "unite": "M²",
+    "prix_initial": 1200.0,
+    "prix_actuel": 600.0,
+    "difference": 600.0
+  },
+  {
+    "CODE": 2011632.0,
+    "designation": "RIDEAU DE SÉCURITÉ MICROPÉRFORÉ",
+    "unite": "M²",
+    "prix_initial": 1600.0,
+    "prix_actuel": 1600.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011633.0,
+    "designation": "PAR-CHOC MÉTALLIQUE Y COMPRIS PEINTURE PHOSPHORESCENTE",
+    "unite": "M²",
+    "prix_initial": 360.0,
+    "prix_actuel": 700.0,
+    "difference": -340.0
+  },
+  {
+    "CODE": 2011634.0,
+    "designation": "RESERVATION GAB DANS GRILLE DE PROTECTION LSB",
+    "unite": "U",
+    "prix_initial": 450.0,
+    "prix_actuel": 500.0,
+    "difference": -50.0
+  },
+  {
+    "CODE": 2011635.0,
+    "designation": "RESERVATION ECRAN D'AFFICHAGE DYNAMIQUE DANS GRILLE DE PROTECTION LSB Y/C NICHE MURALE POUR ACCESSIBILITÉ",
+    "unite": "U",
+    "prix_initial": 900.0,
+    "prix_actuel": 500.0,
+    "difference": 400.0
+  },
+  {
+    "CODE": 2011636.0,
+    "designation": "FOURNITURE ET POSE DE PORTILLON EN INOX",
+    "unite": "M²",
+    "prix_initial": 1500.0,
+    "prix_actuel": 1600.0,
+    "difference": -100.0
+  },
+  {
+    "CODE": 2011637.0,
+    "designation": "GRILLE EN INOX POUR LA NICHE DE LA CLIM",
+    "unite": "M²",
+    "prix_initial": 1250.0,
+    "prix_actuel": 1250.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011638.0,
+    "designation": "FOURNITURE ET POSE DE FIL D'ATTENTE EN INOX",
+    "unite": "ML",
+    "prix_initial": 600.0,
+    "prix_actuel": 650.0,
+    "difference": -50.0
+  },
+  {
+    "CODE": 2011639.0,
+    "designation": "RÉPARATION DE FIL D'ATTENTE (TUBE INOX)",
+    "unite": "ML",
+    "prix_initial": 250.0,
+    "prix_actuel": 800.0,
+    "difference": -550.0
+  },
+  {
+    "CODE": 2011640.0,
+    "designation": "FOURNITURE ET POSE DE GARDE CORPS EN INOX",
+    "unite": "ML",
+    "prix_initial": 1500.0,
+    "prix_actuel": 1500.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011641.0,
+    "designation": "FOURNITURE ET POSE DE PAUMELLES DE 160MM",
+    "unite": "U",
+    "prix_initial": 150.0,
+    "prix_actuel": 280.0,
+    "difference": -130.0
+  },
+  {
+    "CODE": 2011642.0,
+    "designation": "FOURNITURE ET POSE SÉRRURE À CANON SÛRETÉ À 2 POINTS",
+    "unite": "U",
+    "prix_initial": 600.0,
+    "prix_actuel": 700.0,
+    "difference": -100.0
+  },
+  {
+    "CODE": 2011643.0,
+    "designation": "FOURNITURE ET POSE ENSEMBLE BÉQUILLE EN ALUMINIUM",
+    "unite": "U",
+    "prix_initial": 300.0,
+    "prix_actuel": 550.0,
+    "difference": -250.0
+  },
+  {
+    "CODE": 2011644.0,
+    "designation": "FOURNITURE ET POSE BUTTOIR EN CAOUTCHOUC",
+    "unite": "U",
+    "prix_initial": 60.0,
+    "prix_actuel": 120.0,
+    "difference": -60.0
+  },
+  {
+    "CODE": 2011645.0,
+    "designation": "FOURNITURE ET POSE PANNEAUX DE SIGNALISATION POUR STATIONNEMENT CONVOYEUR DE FOND",
+    "unite": "ENS",
+    "prix_initial": 2500.0,
+    "prix_actuel": 2500.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011646.0,
+    "designation": "MAIN COURANTE EN INOX POLI",
+    "unite": "ML",
+    "prix_initial": 750.0,
+    "prix_actuel": 650.0,
+    "difference": 100.0
+  },
+  {
+    "CODE": 2011647.0,
+    "designation": "GARDE CORPS EN VERRE TRANSPARENT TREMPÉ FEUILLETÉ",
+    "unite": "M²",
+    "prix_initial": 2500.0,
+    "prix_actuel": 2700.0,
+    "difference": -200.0
+  },
+  {
+    "CODE": 2011648.0,
+    "designation": "GARDE CORPS EN VERRE TRANSPARENT TREMPÉ FEUILLETÉ ÉPAISSEUR 6.6.2 Y COMPRIS MAIN COURANTE EN TUBE INOX BROSSÉ",
+    "unite": "ML",
+    "prix_initial": 2200.0,
+    "prix_actuel": 2400.0,
+    "difference": -200.0
+  },
+  {
+    "CODE": 2011649.0,
+    "designation": "PORTE BLINDÉE POUR CHAMBRE FORTE, PORTE BLINDÉE ET COUPE-FEU 2H POUR COFFRE FORT À DOUBLE CLÈS",
+    "unite": "M²",
+    "prix_initial": 5500.0,
+    "prix_actuel": 8500.0,
+    "difference": -3000.0
+  },
+  {
+    "CODE": 2011650.0,
+    "designation": "CAILLEBOTIS MÉTALLIQUE",
+    "unite": "M²",
+    "prix_initial": 600.0,
+    "prix_actuel": 950.0,
+    "difference": -350.0
+  },
+  {
+    "CODE": 2011651.0,
+    "designation": "BAIE DE FAÇADE EN TRISTADIP 6.2.6.2.6 ET EN PROFILE DE LA GAMME KAWNEER",
+    "unite": "M²",
+    "prix_initial": 3100.0,
+    "prix_actuel": 3900.0,
+    "difference": -800.0
+  },
+  {
+    "CODE": 2011652.0,
+    "designation": "PORTE VITRÉE GRAND TRAFIC EN ALUMINIUM Y COMPRIS VITRAGE TRISTADIP SÉRIE 190 KABAN",
+    "unite": "M²",
+    "prix_initial": 3500.0,
+    "prix_actuel": 3700.0,
+    "difference": -200.0
+  },
+  {
+    "CODE": 2011653.0,
+    "designation": "FENÊTRE VITRÉE COULISSANTE À DEUX VANTAUX",
+    "unite": "M²",
+    "prix_initial": 1200.0,
+    "prix_actuel": 2100.0,
+    "difference": -900.0
+  },
+  {
+    "CODE": 2011654.0,
+    "designation": "CHÂSSIS VITRÉ BASCULANT / SOUFFLET Y COMPRIS VITRAGE FEUILLETÉ",
+    "unite": "M²",
+    "prix_initial": 1400.0,
+    "prix_actuel": 1900.0,
+    "difference": -500.0
+  },
+  {
+    "CODE": 2011655.0,
+    "designation": "CHÂSSIS VITRÉ OUVRANT À LA FRANÇAISE Y COMPRIS VITRAGE FEUILLETÉ",
+    "unite": "M²",
+    "prix_initial": 1300.0,
+    "prix_actuel": 1900.0,
+    "difference": -600.0
+  },
+  {
+    "CODE": 2011656.0,
+    "designation": "CHÂSSIS VITRÉ FIXE EN ALUMINIUM 6.2.6.",
+    "unite": "M²",
+    "prix_initial": 1400.0,
+    "prix_actuel": 1800.0,
+    "difference": -400.0
+  },
+  {
+    "CODE": 2011657.0,
+    "designation": "PORTE VITRÉE EN ALUMINIUM Y COMPRIS VITRAGE FEUILLETÉ",
+    "unite": "M²",
+    "prix_initial": 1600.0,
+    "prix_actuel": 3000.0,
+    "difference": -1400.0
+  },
+  {
+    "CODE": 2011658.0,
+    "designation": "ENSEMBLE CLOISONS AMOVIBLES TOUTE HAUTEUR EN PANNEAUX VITRÉS BORD À BORD FEUILLETÉ 6.6.2 CLAIR",
+    "unite": "M²",
+    "prix_initial": 1500.0,
+    "prix_actuel": 1500.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011659.0,
+    "designation": "CLOISONS DE BUREAU EN DOUBLE VITRAGE 6+6MM",
+    "unite": "M²",
+    "prix_initial": 1100.0,
+    "prix_actuel": 1250.0,
+    "difference": -150.0
+  },
+  {
+    "CODE": 2011660.0,
+    "designation": "PORTE CLARIT",
+    "unite": "M²",
+    "prix_initial": 1700.0,
+    "prix_actuel": 1800.0,
+    "difference": -100.0
+  },
+  {
+    "CODE": 2011661.0,
+    "designation": "CHANGEMENT DE VITRAGE TRISTADIP 6.2.6.2.6 YC JOINTS ET PARCLOSES",
+    "unite": "M²",
+    "prix_initial": 1700.0,
+    "prix_actuel": 1900.0,
+    "difference": -200.0
+  },
+  {
+    "CODE": 2011662.0,
+    "designation": "CHANGEMENT DE CHÂSSIS EN ALUMINIUM VITRÉ COULISSANT VITRAGE FEUILLETÉ",
+    "unite": "M²",
+    "prix_initial": 1200.0,
+    "prix_actuel": 1200.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011663.0,
+    "designation": "CHANGEMENT DE VITRAGE DE CLOISON AMOVIBLE",
+    "unite": "M²",
+    "prix_initial": 350.0,
+    "prix_actuel": 400.0,
+    "difference": -50.0
+  },
+  {
+    "CODE": 2011664.0,
+    "designation": "DÉPOSE, REPOSE DE CLOISON ET AJUSTAGE",
+    "unite": "M²",
+    "prix_initial": 3500.0,
+    "prix_actuel": 400.0,
+    "difference": 3100.0
+  },
+  {
+    "CODE": 2011665.0,
+    "designation": "FILM ADHÉSIF SABLE POUR VITRAGE",
+    "unite": "M²",
+    "prix_initial": 250.0,
+    "prix_actuel": 300.0,
+    "difference": -50.0
+  },
+  {
+    "CODE": 2011666.0,
+    "designation": "FOURNITURE DE POIGNÉES POUR PORTE GRAND TRAFIC",
+    "unite": "U",
+    "prix_initial": 700.0,
+    "prix_actuel": 800.0,
+    "difference": -100.0
+  },
+  {
+    "CODE": 2011667.0,
+    "designation": "FOURNITURE DE POIGNÉES POUR PORTE CLARITE",
+    "unite": "U",
+    "prix_initial": 500.0,
+    "prix_actuel": 800.0,
+    "difference": -300.0
+  },
+  {
+    "CODE": 2011668.0,
+    "designation": "FOURNITURE ET POSE DE FERME PORTE",
+    "unite": "U",
+    "prix_initial": 500.0,
+    "prix_actuel": 500.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011669.0,
+    "designation": "FOURNITURE ET POSE DE BARRE ANTIPANIQUE",
+    "unite": "U",
+    "prix_initial": 1300.0,
+    "prix_actuel": 1500.0,
+    "difference": -200.0
+  },
+  {
+    "CODE": 2011670.0,
+    "designation": "CHANGEMENT DES PROFILES D'ALUMINIUM DE LA FAÇADE EN TRISTADIP 6.2.6.2.6",
+    "unite": "M²",
+    "prix_initial": 900.0,
+    "prix_actuel": 2200.0,
+    "difference": -1300.0
+  },
+  {
+    "CODE": 2011671.0,
+    "designation": "SERRURE À CANON HAUTE SÛRETÉ À 3 POINTS",
+    "unite": "U",
+    "prix_initial": 1400.0,
+    "prix_actuel": 1900.0,
+    "difference": -500.0
+  },
+  {
+    "CODE": 2011672.0,
+    "designation": "ENSEMBLE BÉQUILLE EN ALUMINIUM",
+    "unite": "ENS",
+    "prix_initial": 300.0,
+    "prix_actuel": 400.0,
+    "difference": -100.0
+  },
+  {
+    "CODE": 2011673.0,
+    "designation": "BUTOIR EN CAOUTCHOUC",
+    "unite": "U",
+    "prix_initial": 50.0,
+    "prix_actuel": 120.0,
+    "difference": -70.0
+  },
+  {
+    "CODE": 2011674.0,
+    "designation": "RÉPARATION ET AJUSTAGE DES PORTES CLARIT",
+    "unite": "U",
+    "prix_initial": 300.0,
+    "prix_actuel": 500.0,
+    "difference": -200.0
+  },
+  {
+    "CODE": 2011675.0,
+    "designation": "RÉPARATION ET AJUSTAGE DES PORTES GRAND TRAFIC",
+    "unite": "U",
+    "prix_initial": 600.0,
+    "prix_actuel": 700.0,
+    "difference": -100.0
+  },
+  {
+    "CODE": 2011676.0,
+    "designation": "PAROI DE DOUCHE DE 2,00M DE HAUTEUR EN VERRE SÉCURIT 10MM Y COMPRIS PORTE",
+    "unite": "M²",
+    "prix_initial": 1000.0,
+    "prix_actuel": 1350.0,
+    "difference": -350.0
+  },
+  {
+    "CODE": 2011677.0,
+    "designation": "HABILLAGE EN PANNEAUX COMPOSITE EN ALUMINIUM TYPE STACBOND OU SIMILAIRE",
+    "unite": "M²",
+    "prix_initial": 1100.0,
+    "prix_actuel": 1100.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011678.0,
+    "designation": "ENSEMBLE MUR RIDEAU À VITRAGE EXTÉRIEUR COLLÉ (VEC)",
+    "unite": "M²",
+    "prix_initial": 3200.0,
+    "prix_actuel": 4200.0,
+    "difference": -1000.0
+  },
+  {
+    "CODE": 2011679.0,
+    "designation": "ENSEMBLE MUR RIDEAU VITRÉ EN CAPOT SERREUR",
+    "unite": "M²",
+    "prix_initial": 3300.0,
+    "prix_actuel": 3800.0,
+    "difference": -500.0
+  },
+  {
+    "CODE": 2011680.0,
+    "designation": "STORES POUR ENSEMBLE VITRÉS",
+    "unite": "M²",
+    "prix_initial": 350.0,
+    "prix_actuel": 350.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011681.0,
+    "designation": "STORES VÉNITIENS LAMES EN BOIS DE 50MM DE LARGEUR ORIENTABLE - FINITION WENGE",
+    "unite": "M²",
+    "prix_initial": 400.0,
+    "prix_actuel": 400.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011682.0,
+    "designation": "STORES ENROULEMENT AVEC TISSU BLACK OUT",
+    "unite": "M²",
+    "prix_initial": 400.0,
+    "prix_actuel": 400.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011683.0,
+    "designation": "STORES DE PROTECTION SOLAIRE DU TYPE SOLOSCREEN DE CHEZ GRISER",
+    "unite": "M²",
+    "prix_initial": 500.0,
+    "prix_actuel": 500.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011684.0,
+    "designation": "PROJECTEUR EXTÉRIEUR 300W LED",
+    "unite": "U",
+    "prix_initial": 550.0,
+    "prix_actuel": 1200.0,
+    "difference": -650.0
+  },
+  {
+    "CODE": 2011685.0,
+    "designation": "PROJECTEUR POUR BAIE DE FAÇADE LED",
+    "unite": "U",
+    "prix_initial": 380.0,
+    "prix_actuel": 380.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011686.0,
+    "designation": "APPLIQUE LAVABO",
+    "unite": "U",
+    "prix_initial": 300.0,
+    "prix_actuel": 360.0,
+    "difference": -60.0
+  },
+  {
+    "CODE": 2011687.0,
+    "designation": "BLOC AUTONOME EN SAILLIE LED",
+    "unite": "U",
+    "prix_initial": 530.0,
+    "prix_actuel": 600.0,
+    "difference": -70.0
+  },
+  {
+    "CODE": 2011688.0,
+    "designation": "BLOC AUTONOME ENCASTRÉ LED",
+    "unite": "U",
+    "prix_initial": 530.0,
+    "prix_actuel": 600.0,
+    "difference": -70.0
+  },
+  {
+    "CODE": 2011689.0,
+    "designation": "GOULOTTE ÉLECTRIQUE",
+    "unite": "ML",
+    "prix_initial": 145.0,
+    "prix_actuel": 120.0,
+    "difference": 25.0
+  },
+  {
+    "CODE": 2011690.0,
+    "designation": "PRISE DE COURANT NORMAL",
+    "unite": "U",
+    "prix_initial": 90.0,
+    "prix_actuel": 90.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011691.0,
+    "designation": "PRISE DÉTROMPEUR",
+    "unite": "U",
+    "prix_initial": 130.0,
+    "prix_actuel": 110.0,
+    "difference": 20.0
+  },
+  {
+    "CODE": 2011692.0,
+    "designation": "PRISE RJ45",
+    "unite": "U",
+    "prix_initial": 85.0,
+    "prix_actuel": 85.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011693.0,
+    "designation": "BOUTON POUSSOIR",
+    "unite": "U",
+    "prix_initial": 130.0,
+    "prix_actuel": 130.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011694.0,
+    "designation": "INTERRUPTEUR SIMPLE ALLUMAGE",
+    "unite": "U",
+    "prix_initial": 120.0,
+    "prix_actuel": 120.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011695.0,
+    "designation": "INTERRUPTEUR DOUBLE ALLUMAGE",
+    "unite": "U",
+    "prix_initial": 120.0,
+    "prix_actuel": 130.0,
+    "difference": -10.0
+  },
+  {
+    "CODE": 2011696.0,
+    "designation": "INTERRUPTEUR VA ET VIENT",
+    "unite": "U",
+    "prix_initial": 140.0,
+    "prix_actuel": 120.0,
+    "difference": 20.0
+  },
+  {
+    "CODE": 2011697.0,
+    "designation": "DÉTECTEUR DE PRÉSENCE",
+    "unite": "U",
+    "prix_initial": 300.0,
+    "prix_actuel": 300.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011698.0,
+    "designation": "CÂBLE ÉLECTRIQUE 3X1,5MM",
+    "unite": "ML",
+    "prix_initial": 17.0,
+    "prix_actuel": 17.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011699.0,
+    "designation": "CÂBLE ÉLECTRIQUE 5X6MM",
+    "unite": "ML",
+    "prix_initial": 55.0,
+    "prix_actuel": 70.0,
+    "difference": -15.0
+  },
+  {
+    "CODE": 2011700.0,
+    "designation": "CÂBLE ÉLECTRIQUE 3X2,5MM",
+    "unite": "ML",
+    "prix_initial": 22.0,
+    "prix_actuel": 30.0,
+    "difference": -8.0
+  },
+  {
+    "CODE": 2011701.0,
+    "designation": "CÂBLE ÉLECTRIQUE 4X6MM",
+    "unite": "ML",
+    "prix_initial": 50.0,
+    "prix_actuel": 72.0,
+    "difference": -22.0
+  },
+  {
+    "CODE": 2011702.0,
+    "designation": "CÂBLE ÉLECTRIQUE 4X2,5MM",
+    "unite": "ML",
+    "prix_initial": 25.0,
+    "prix_actuel": 35.0,
+    "difference": -10.0
+  },
+  {
+    "CODE": 2011703.0,
+    "designation": "FOURNITURE ET POSE D'UN DISJONCTEUR 25 À 4 FILS",
+    "unite": "U",
+    "prix_initial": 1000.0,
+    "prix_actuel": 400.0,
+    "difference": 600.0
+  },
+  {
+    "CODE": 2011704.0,
+    "designation": "FOURNITURE ET POSE D'UN DISJONCTEUR 30 À 4 FILS",
+    "unite": "U",
+    "prix_initial": 1050.0,
+    "prix_actuel": 1050.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011705.0,
+    "designation": "FOURNITURE ET POSE D'UN DISJONCTEUR 60 À 4 FILS",
+    "unite": "U",
+    "prix_initial": 1300.0,
+    "prix_actuel": 1200.0,
+    "difference": 100.0
+  },
+  {
+    "CODE": 2011706.0,
+    "designation": "FOURNITURE ET POSE DE TABLEAU ÉLECTRIQUE",
+    "unite": "ENS",
+    "prix_initial": 14000.0,
+    "prix_actuel": 9500.0,
+    "difference": 4500.0
+  },
+  {
+    "CODE": 2011707.0,
+    "designation": "TABLEAU ÉLECTRIQUE, Y COMPRIS ÉQUIPEMENTS DE L'ASSERVISSEMENT INTRUSION ET CLIMATISATION",
+    "unite": "U",
+    "prix_initial": 22000.0,
+    "prix_actuel": 25000.0,
+    "difference": -3000.0
+  },
+  {
+    "CODE": 2011708.0,
+    "designation": "FOURNITURE ET POSE DE TUBAGE ISORANGE POUR RÉSEAU TÉLÉPHONE",
+    "unite": "ML",
+    "prix_initial": 12.0,
+    "prix_actuel": 35.0,
+    "difference": -23.0
+  },
+  {
+    "CODE": 2011709.0,
+    "designation": "FOURNITURE ET POSE DE TUBAGE ISORANGE POUR RÉSEAU INFORMATIQUE",
+    "unite": "ML",
+    "prix_initial": 16.0,
+    "prix_actuel": 35.0,
+    "difference": -19.0
+  },
+  {
+    "CODE": 2011710.0,
+    "designation": "FOURNITURE ET POSE DE TUBAGE ISORANGE POUR RÉSEAU ALARME",
+    "unite": "ML",
+    "prix_initial": 12.0,
+    "prix_actuel": 35.0,
+    "difference": -23.0
+  },
+  {
+    "CODE": 2011711.0,
+    "designation": "FOURNITURE ET POSE D'UN ONDULEUR PULSAR ON LINE 1,5 KVA",
+    "unite": "U",
+    "prix_initial": 4000.0,
+    "prix_actuel": 16000.0,
+    "difference": -12000.0
+  },
+  {
+    "CODE": 2011712.0,
+    "designation": "FOURNITURE ET POSE D'UN ONDULEUR PULSAR ON LINE 4,5 KVA",
+    "unite": "U",
+    "prix_initial": 14000.0,
+    "prix_actuel": 22000.0,
+    "difference": -8000.0
+  },
+  {
+    "CODE": 2011713.0,
+    "designation": "FOURNITURE ET POSE D'UN ONDULEUR PULSAR ON LINE 6 KVA",
+    "unite": "U",
+    "prix_initial": 25000.0,
+    "prix_actuel": 28000.0,
+    "difference": -3000.0
+  },
+  {
+    "CODE": 2011714.0,
+    "designation": "FOURNITURE ET POSE DE GÂCHE ÉLECTRIQUE",
+    "unite": "U",
+    "prix_initial": 250.0,
+    "prix_actuel": 320.0,
+    "difference": -70.0
+  },
+  {
+    "CODE": 2011715.0,
+    "designation": "4G25+16MM²",
+    "unite": "ML",
+    "prix_initial": 175.0,
+    "prix_actuel": 105.0,
+    "difference": 70.0
+  },
+  {
+    "CODE": 2011716.0,
+    "designation": "4G35+25MM",
+    "unite": "ML",
+    "prix_initial": 185.0,
+    "prix_actuel": 135.0,
+    "difference": 50.0
+  },
+  {
+    "CODE": 2011717.0,
+    "designation": "BOITE DE COUPURE",
+    "unite": "ENS",
+    "prix_initial": 800.0,
+    "prix_actuel": 800.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011718.0,
+    "designation": "1PNC 10AC 10KA",
+    "unite": "U",
+    "prix_initial": 90.0,
+    "prix_actuel": 90.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011719.0,
+    "designation": "1 PNC 16AC 10 KA",
+    "unite": "U",
+    "prix_initial": 90.0,
+    "prix_actuel": 90.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011720.0,
+    "designation": "1 PNC 20AC 10 KA",
+    "unite": "U",
+    "prix_initial": 100.0,
+    "prix_actuel": 100.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011721.0,
+    "designation": "1 PNC 25AC 10 KA",
+    "unite": "U",
+    "prix_initial": 100.0,
+    "prix_actuel": 100.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011722.0,
+    "designation": "1 PNC 32AC 10 KA",
+    "unite": "U",
+    "prix_initial": 110.0,
+    "prix_actuel": 110.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011723.0,
+    "designation": "LUMINAIRE ÉTANCHES DE 1,20M DE LONGUEUR EN LED 22S/840",
+    "unite": "U",
+    "prix_initial": 430.0,
+    "prix_actuel": 500.0,
+    "difference": -70.0
+  },
+  {
+    "CODE": 2011724.0,
+    "designation": "LAMPE LED 13W",
+    "unite": "U",
+    "prix_initial": 40.0,
+    "prix_actuel": 60.0,
+    "difference": -20.0
+  },
+  {
+    "CODE": 2011725.0,
+    "designation": "LAMPE LED 7W",
+    "unite": "U",
+    "prix_initial": 30.0,
+    "prix_actuel": 50.0,
+    "difference": -20.0
+  },
+  {
+    "CODE": 2011726.0,
+    "designation": "LAMPE LED GU10 DE 5,5W",
+    "unite": "U",
+    "prix_initial": 50.0,
+    "prix_actuel": 55.0,
+    "difference": -5.0
+  },
+  {
+    "CODE": 2011727.0,
+    "designation": "SPOT ENCASTRÉ LED 20S/840",
+    "unite": "U",
+    "prix_initial": 380.0,
+    "prix_actuel": 350.0,
+    "difference": 30.0
+  },
+  {
+    "CODE": 2011728.0,
+    "designation": "SPOT ENCASTRÉ LED 11S/840",
+    "unite": "U",
+    "prix_initial": 380.0,
+    "prix_actuel": 350.0,
+    "difference": 30.0
+  },
+  {
+    "CODE": 2011729.0,
+    "designation": "LUMINAIRE LED 34S/840",
+    "unite": "U",
+    "prix_initial": 500.0,
+    "prix_actuel": 450.0,
+    "difference": 50.0
+  },
+  {
+    "CODE": 2011730.0,
+    "designation": "HUBLOT LED WL 120V",
+    "unite": "U",
+    "prix_initial": 350.0,
+    "prix_actuel": 400.0,
+    "difference": -50.0
+  },
+  {
+    "CODE": 2011731.0,
+    "designation": "HORLOGE DIGITAL",
+    "unite": "U",
+    "prix_initial": 500.0,
+    "prix_actuel": 420.0,
+    "difference": 80.0
+  },
+  {
+    "CODE": 2011732.0,
+    "designation": "4*10MM²+T",
+    "unite": "ML",
+    "prix_initial": 80.0,
+    "prix_actuel": 160.0,
+    "difference": -80.0
+  },
+  {
+    "CODE": 2011733.0,
+    "designation": "4*16MM²+T",
+    "unite": "ML",
+    "prix_initial": 200.0,
+    "prix_actuel": 200.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011734.0,
+    "designation": "4*25MM²+T",
+    "unite": "ML",
+    "prix_initial": 210.0,
+    "prix_actuel": 210.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011735.0,
+    "designation": "215 X 63MM (ÉPAISSEUR 15/10ÈME)",
+    "unite": "ML",
+    "prix_initial": 100.0,
+    "prix_actuel": 140.0,
+    "difference": -40.0
+  },
+  {
+    "CODE": 2011736.0,
+    "designation": "125 X 33MM (ÉPAISSEUR 15/10ÈME)",
+    "unite": "ML",
+    "prix_initial": 100.0,
+    "prix_actuel": 120.0,
+    "difference": -20.0
+  },
+  {
+    "CODE": 2011737.0,
+    "designation": "65 X 33MM (ÉPAISSEUR 15/10ÈME)",
+    "unite": "ML",
+    "prix_initial": 85.0,
+    "prix_actuel": 100.0,
+    "difference": -15.0
+  },
+  {
+    "CODE": 2011738.0,
+    "designation": "DE 4*25A",
+    "unite": "U",
+    "prix_initial": 600.0,
+    "prix_actuel": 700.0,
+    "difference": -100.0
+  },
+  {
+    "CODE": 2011739.0,
+    "designation": "DE 4*32A",
+    "unite": "U",
+    "prix_initial": 800.0,
+    "prix_actuel": 850.0,
+    "difference": -50.0
+  },
+  {
+    "CODE": 2011740.0,
+    "designation": "DE 4*40A",
+    "unite": "U",
+    "prix_initial": 1000.0,
+    "prix_actuel": 1000.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011741.0,
+    "designation": "TÉLERRUPTEUR",
+    "unite": "U",
+    "prix_initial": 210.0,
+    "prix_actuel": 210.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011742.0,
+    "designation": "RÉPARTITEUR",
+    "unite": "U",
+    "prix_initial": 180.0,
+    "prix_actuel": 210.0,
+    "difference": -30.0
+  },
+  {
+    "CODE": 2011743.0,
+    "designation": "DÉTECTEUR DE PRÉSENCE POUR ÉCLAIRAGE",
+    "unite": "U",
+    "prix_initial": 320.0,
+    "prix_actuel": 320.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011744.0,
+    "designation": "BOITE AU SOL POUR BLOC DE TRAVAIL ÉQUIPÉE 6 MODULES",
+    "unite": "U",
+    "prix_initial": 1200.0,
+    "prix_actuel": 1800.0,
+    "difference": -600.0
+  },
+  {
+    "CODE": 2011745.0,
+    "designation": "BOITE AU SOL POUR BLOC DE TRAVAIL ÉQUIPÉE 12 MODULES",
+    "unite": "U",
+    "prix_initial": 1900.0,
+    "prix_actuel": 2200.0,
+    "difference": -300.0
+  },
+  {
+    "CODE": 2011746.0,
+    "designation": "BOITE AU SOL POUR BLOC DE TRAVAIL ÉQUIPÉE 18 MODULES",
+    "unite": "U",
+    "prix_initial": 2300.0,
+    "prix_actuel": 3000.0,
+    "difference": -700.0
+  },
+  {
+    "CODE": 2011747.0,
+    "designation": "WC PMR",
+    "unite": "U",
+    "prix_initial": 3000.0,
+    "prix_actuel": 6500.0,
+    "difference": -3500.0
+  },
+  {
+    "CODE": 2011748.0,
+    "designation": "ROCA GAMME ADELE, VICTORIA ET SIMILAIRE",
+    "unite": "U",
+    "prix_initial": 1600.0,
+    "prix_actuel": 1600.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011749.0,
+    "designation": "ROCA GAMME INSPIRA, HALL ET SIMILAIRE",
+    "unite": "U",
+    "prix_initial": 3500.0,
+    "prix_actuel": 5500.0,
+    "difference": -2000.0
+  },
+  {
+    "CODE": 2011750.0,
+    "designation": "ENSEMBLE BAS À L'ANGLAISE DE MARQUE JACOB DELAFON REF: E0520 +BATI SUPPORT DE MARQUE GEBERIT OU ÉQUIVALENT",
+    "unite": "U",
+    "prix_initial": 4000.0,
+    "prix_actuel": 6000.0,
+    "difference": -2000.0
+  },
+  {
+    "CODE": 2011751.0,
+    "designation": "WC SUSPENDU",
+    "unite": "U",
+    "prix_initial": 4200.0,
+    "prix_actuel": 4900.0,
+    "difference": -700.0
+  },
+  {
+    "CODE": 2011752.0,
+    "designation": "LAVABO PMR",
+    "unite": "U",
+    "prix_initial": 2500.0,
+    "prix_actuel": 2500.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011753.0,
+    "designation": "ROCA GAMME ADELE, VICTORIA ET SIMILAIRE",
+    "unite": "U",
+    "prix_initial": 1800.0,
+    "prix_actuel": 1800.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011754.0,
+    "designation": "ROCA GAMME INSPIRA",
+    "unite": "U",
+    "prix_initial": 4000.0,
+    "prix_actuel": 4800.0,
+    "difference": -800.0
+  },
+  {
+    "CODE": 2011755.0,
+    "designation": "ROCA GAMME HALL",
+    "unite": "U",
+    "prix_initial": 3300.0,
+    "prix_actuel": 4000.0,
+    "difference": -700.0
+  },
+  {
+    "CODE": 2011756.0,
+    "designation": "ENSEMBLE LAVABO DE MARQUE GEBERIT BLANC REF: 5740,01,2",
+    "unite": "U",
+    "prix_initial": 3500.0,
+    "prix_actuel": 4500.0,
+    "difference": -1000.0
+  },
+  {
+    "CODE": 2011757.0,
+    "designation": "LAVABO SUR COLONNE",
+    "unite": "U",
+    "prix_initial": 1300.0,
+    "prix_actuel": 1300.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011758.0,
+    "designation": "FOURNITURE ET POSE DE CHAUFFE EAU DE 30 LITRES",
+    "unite": "U",
+    "prix_initial": 1900.0,
+    "prix_actuel": 1900.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011759.0,
+    "designation": "FOURNITURE ET POSE DE SÈCHE MAIN ÉLECTRIQUE",
+    "unite": "U",
+    "prix_initial": 2200.0,
+    "prix_actuel": 1900.0,
+    "difference": 300.0
+  },
+  {
+    "CODE": 2011760.0,
+    "designation": "FOURNITURE ET POSE DE PORTE PAPIER",
+    "unite": "U",
+    "prix_initial": 400.0,
+    "prix_actuel": 600.0,
+    "difference": -200.0
+  },
+  {
+    "CODE": 2011761.0,
+    "designation": "FOURNITURE ET POSE DE DISTRIBUTEUR DE SAVON LIQUIDE",
+    "unite": "U",
+    "prix_initial": 350.0,
+    "prix_actuel": 350.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011762.0,
+    "designation": "FOURNITURE ET POSE DE PORTE SERVIETTE À 2 BRANCHES CHROMÉES",
+    "unite": "U",
+    "prix_initial": 300.0,
+    "prix_actuel": 400.0,
+    "difference": -100.0
+  },
+  {
+    "CODE": 2011763.0,
+    "designation": "MIROIRS GLACE 0,70 X 0,80",
+    "unite": "U",
+    "prix_initial": 350.0,
+    "prix_actuel": 450.0,
+    "difference": -100.0
+  },
+  {
+    "CODE": 2011764.0,
+    "designation": "FOURNITURE ET POSE DE MÉCANISME DE CHASSE POUR WC À L'ANGLAISE",
+    "unite": "U",
+    "prix_initial": 350.0,
+    "prix_actuel": 300.0,
+    "difference": 50.0
+  },
+  {
+    "CODE": 2011765.0,
+    "designation": "POUBELLES: 12L",
+    "unite": "U",
+    "prix_initial": 350.0,
+    "prix_actuel": 350.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011766.0,
+    "designation": "POUBELLES: 20L",
+    "unite": "U",
+    "prix_initial": 450.0,
+    "prix_actuel": 450.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011767.0,
+    "designation": "MÉLANGEUR DE DOUCHE",
+    "unite": "U",
+    "prix_initial": 800.0,
+    "prix_actuel": 300.0,
+    "difference": 500.0
+  },
+  {
+    "CODE": 2011768.0,
+    "designation": "MÉLANGEUR DE ROBINET",
+    "unite": "U",
+    "prix_initial": 700.0,
+    "prix_actuel": 750.0,
+    "difference": -50.0
+  },
+  {
+    "CODE": 2011769.0,
+    "designation": "DOUCHETTES AVEC ACCESSOIRES",
+    "unite": "U",
+    "prix_initial": 950.0,
+    "prix_actuel": 950.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011770.0,
+    "designation": "BAIGNOIRES 170/70",
+    "unite": "U",
+    "prix_initial": 2500.0,
+    "prix_actuel": 2500.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011771.0,
+    "designation": "MÉLANGEURS DE BAIGNOIRE",
+    "unite": "U",
+    "prix_initial": 1200.0,
+    "prix_actuel": 1200.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011772.0,
+    "designation": "SIPHON DE SOL EN INOX 100X100",
+    "unite": "U",
+    "prix_initial": 290.0,
+    "prix_actuel": 290.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011773.0,
+    "designation": "FLEXIBLE",
+    "unite": "ML",
+    "prix_initial": 60.0,
+    "prix_actuel": 60.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011774.0,
+    "designation": "ROBINET À BAC",
+    "unite": "U",
+    "prix_initial": 180.0,
+    "prix_actuel": 180.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011775.0,
+    "designation": "TÊTE DE MÉLANGEUR",
+    "unite": "U",
+    "prix_initial": 180.0,
+    "prix_actuel": 180.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011776.0,
+    "designation": "CHAUFFE EAU ÉLECTRIQUE 80 LITRES",
+    "unite": "U",
+    "prix_initial": 2400.0,
+    "prix_actuel": 2400.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011777.0,
+    "designation": "CHAUFFE EAU ÉLECTRIQUE 100LITRES",
+    "unite": "U",
+    "prix_initial": 3500.0,
+    "prix_actuel": 3500.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011778.0,
+    "designation": "CHAUFFE EAU ÉLECTRIQUE 150 LITRES",
+    "unite": "U",
+    "prix_initial": 4200.0,
+    "prix_actuel": 4200.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011779.0,
+    "designation": "CURAGE DES REGARDS",
+    "unite": "U",
+    "prix_initial": 110.0,
+    "prix_actuel": 110.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011780.0,
+    "designation": "TUBE EN CUIVRE 14 A 18",
+    "unite": "ML",
+    "prix_initial": 60.0,
+    "prix_actuel": 180.0,
+    "difference": -120.0
+  },
+  {
+    "CODE": 2011781.0,
+    "designation": "TUBE POLYÉTHYLÈNE RÉTICULE DIAMÈTRE 16/20",
+    "unite": "ML",
+    "prix_initial": 70.0,
+    "prix_actuel": 70.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011782.0,
+    "designation": "COLLECTEUR EN BRONZE",
+    "unite": "ENS",
+    "prix_initial": 300.0,
+    "prix_actuel": 400.0,
+    "difference": -100.0
+  },
+  {
+    "CODE": 2011783.0,
+    "designation": "D. 75 À 100",
+    "unite": "ML",
+    "prix_initial": 70.0,
+    "prix_actuel": 70.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011784.0,
+    "designation": "D. 110 À 125",
+    "unite": "ML",
+    "prix_initial": 90.0,
+    "prix_actuel": 95.0,
+    "difference": -5.0
+  },
+  {
+    "CODE": 2011785.0,
+    "designation": "D. 160 À 200",
+    "unite": "ML",
+    "prix_initial": 110.0,
+    "prix_actuel": 120.0,
+    "difference": -10.0
+  },
+  {
+    "CODE": 2011786.0,
+    "designation": "D.80 À 100",
+    "unite": "ML",
+    "prix_initial": 90.0,
+    "prix_actuel": 90.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011787.0,
+    "designation": "D. 150 À 200",
+    "unite": "ML",
+    "prix_initial": 80.0,
+    "prix_actuel": 110.0,
+    "difference": -30.0
+  },
+  {
+    "CODE": 2011788.0,
+    "designation": "ROBINET D'ISOLEMENT PPR D.15 À 25",
+    "unite": "U",
+    "prix_initial": 95.0,
+    "prix_actuel": 120.0,
+    "difference": -25.0
+  },
+  {
+    "CODE": 2011789.0,
+    "designation": "GARGOUILLE EN PLOMB ET CRAPAUDINE TOUS DIAMÈTRE",
+    "unite": "U",
+    "prix_initial": 350.0,
+    "prix_actuel": 450.0,
+    "difference": -100.0
+  },
+  {
+    "CODE": 2011790.0,
+    "designation": "CUVETTES EN PLOMB DE 3MM D'ÉPAISSEUR, À PLACER SOUS GAINE TECHNIQUE YC MIGON D.80, ACCROCHAGE SUR DALLE SUPÉRIEURE",
+    "unite": "M²",
+    "prix_initial": 150.0,
+    "prix_actuel": 350.0,
+    "difference": -200.0
+  },
+  {
+    "CODE": 2011791.0,
+    "designation": "FOURNITURE D'UNE POMPE DE RELEVAGE",
+    "unite": "ENS",
+    "prix_initial": 4000.0,
+    "prix_actuel": 4000.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011792.0,
+    "designation": "ROBINET D'ARRÊT",
+    "unite": "U",
+    "prix_initial": 80.0,
+    "prix_actuel": 120.0,
+    "difference": -40.0
+  },
+  {
+    "CODE": 2011793.0,
+    "designation": "FRAIS DE KILOMETRAGE",
+    "unite": null,
+    "prix_initial": 3.0,
+    "prix_actuel": 3.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011794.0,
+    "designation": "REVÊTEMENT DE SOL EN MARBRE JAUNE DE BOUJÂAD",
+    "unite": "M²",
+    "prix_initial": 500.0,
+    "prix_actuel": 650.0,
+    "difference": -150.0
+  },
+  {
+    "CODE": 2011795.0,
+    "designation": "REVÊTEMENT DE SOL EN MARBRE VOLUBILIS",
+    "unite": "M²",
+    "prix_initial": 500.0,
+    "prix_actuel": 600.0,
+    "difference": -100.0
+  },
+  {
+    "CODE": 2011796.0,
+    "designation": "REVÊTEMENT DE SOL EN MARBRE CRÉMA MARFIL",
+    "unite": "M²",
+    "prix_initial": 600.0,
+    "prix_actuel": 850.0,
+    "difference": -250.0
+  },
+  {
+    "CODE": 2011797.0,
+    "designation": "REVÊTEMENT DE SOL EN MARBRE NOIR ORIENTAL BOUCHARDÉ",
+    "unite": "M²",
+    "prix_initial": 700.0,
+    "prix_actuel": 700.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011798.0,
+    "designation": "REVÊTEMENT DE SOL EN MARBRE SILESTONE",
+    "unite": "M²",
+    "prix_initial": 1200.0,
+    "prix_actuel": 1550.0,
+    "difference": -350.0
+  },
+  {
+    "CODE": 2011799.0,
+    "designation": "REVÊTEMENT DE SOL EN MARBRE QUARTZ",
+    "unite": "M²",
+    "prix_initial": 1400.0,
+    "prix_actuel": 1800.0,
+    "difference": -400.0
+  },
+  {
+    "CODE": 2011800.0,
+    "designation": "REVÊTEMENT DE MURS EN MARBRE JAUNE DE BOUJÂAD",
+    "unite": "M²",
+    "prix_initial": 600.0,
+    "prix_actuel": 650.0,
+    "difference": -50.0
+  },
+  {
+    "CODE": 2011801.0,
+    "designation": "REVÊTEMENT DE MURS EN MARBRE VOLUBILIS",
+    "unite": "M²",
+    "prix_initial": 700.0,
+    "prix_actuel": 700.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011802.0,
+    "designation": "REVÊTEMENT DE MURS EN MARBRE CRÉMA MARFIL",
+    "unite": "M²",
+    "prix_initial": 550.0,
+    "prix_actuel": 850.0,
+    "difference": -300.0
+  },
+  {
+    "CODE": 2011803.0,
+    "designation": "REVÊTEMENT DE MURS EN MARBRE NOIR ORIENTAL",
+    "unite": "M²",
+    "prix_initial": 1000.0,
+    "prix_actuel": 1000.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011804.0,
+    "designation": "REVÊTEMENT DE MURS EN MARBRE SILESTONE",
+    "unite": "M²",
+    "prix_initial": 1300.0,
+    "prix_actuel": 1700.0,
+    "difference": -400.0
+  },
+  {
+    "CODE": 2011805.0,
+    "designation": "REVÊTEMENT DE MURS EN MARBRE QUARTZ",
+    "unite": "M²",
+    "prix_initial": 1500.0,
+    "prix_actuel": 1900.0,
+    "difference": -400.0
+  },
+  {
+    "CODE": 2011806.0,
+    "designation": "PLINTHES EN MARBRE JAUNE DE BOUJÂAD",
+    "unite": "ML",
+    "prix_initial": 90.0,
+    "prix_actuel": 90.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011807.0,
+    "designation": "PLINTHES EN MARBRE VOLUBILIS",
+    "unite": "ML",
+    "prix_initial": 90.0,
+    "prix_actuel": 90.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011808.0,
+    "designation": "PLINTHES EN MARBRE CRÉMA MARFIL",
+    "unite": "ML",
+    "prix_initial": 120.0,
+    "prix_actuel": 120.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011809.0,
+    "designation": "PLINTHES EN MARBRE NOIR ORIENTAL",
+    "unite": "ML",
+    "prix_initial": 120.0,
+    "prix_actuel": 120.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011810.0,
+    "designation": "PLINTHES EN MARBRE SILESTONE",
+    "unite": "ML",
+    "prix_initial": 180.0,
+    "prix_actuel": 180.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011811.0,
+    "designation": "PLINTHES EN MARBRE QUARTZ",
+    "unite": "ML",
+    "prix_initial": 200.0,
+    "prix_actuel": 200.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011812.0,
+    "designation": "MARCHES ET CONTRE MARCHES EN MARBRE JAUNE DE BOUJÂAD",
+    "unite": "ML",
+    "prix_initial": 450.0,
+    "prix_actuel": 450.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011813.0,
+    "designation": "MARCHES ET CONTRE MARCHES EN MARBRE VOLUBILIS",
+    "unite": "ML",
+    "prix_initial": 300.0,
+    "prix_actuel": 450.0,
+    "difference": -150.0
+  },
+  {
+    "CODE": 2011814.0,
+    "designation": "MARCHES ET CONTRE MARCHES EN MARBRE CRÉMA MARFIL",
+    "unite": "ML",
+    "prix_initial": 300.0,
+    "prix_actuel": 550.0,
+    "difference": -250.0
+  },
+  {
+    "CODE": 2011815.0,
+    "designation": "MARCHES ET CONTRE MARCHES EN MARBRE NOIR ORIENTAL BOUCHARDÉ",
+    "unite": "ML",
+    "prix_initial": 300.0,
+    "prix_actuel": 550.0,
+    "difference": -250.0
+  },
+  {
+    "CODE": 2011816.0,
+    "designation": "MARCHES ET CONTRE MARCHES EN MARBRE SILESTONE",
+    "unite": "ML",
+    "prix_initial": 300.0,
+    "prix_actuel": 700.0,
+    "difference": -400.0
+  },
+  {
+    "CODE": 2011817.0,
+    "designation": "MARCHES ET CONTRE MARCHES EN MARBRE QUARTZ",
+    "unite": "ML",
+    "prix_initial": 300.0,
+    "prix_actuel": 800.0,
+    "difference": -500.0
+  },
+  {
+    "CODE": 2011818.0,
+    "designation": "REVÊTEMENT DE FAÇADE EN MARBRE JAUNE DE BOUJÂAD DE 2CM D'ÉPAISSEUR POUR UNE HAUTEUR INFÉRIEURE DE 6 MÈTRES",
+    "unite": "M²",
+    "prix_initial": 600.0,
+    "prix_actuel": 700.0,
+    "difference": -100.0
+  },
+  {
+    "CODE": 2011819.0,
+    "designation": "FOURNITURE ET FIXATION DES PLAQUES EN MARBRE JAUNE DE BOUJÂAD DE 3CM D'ÉPAISSEUR ET AU-DELÀ DE 6M DE HAUTEUR FIXÉ PAR DES ATTACHES MÉTALLIQUES",
+    "unite": "M²",
+    "prix_initial": 800.0,
+    "prix_actuel": 900.0,
+    "difference": -100.0
+  },
+  {
+    "CODE": 2011820.0,
+    "designation": "PONÇAGE - LUSTRAGE DE MARBRE DES SOLS - MURS ET PLINTHES",
+    "unite": "M²",
+    "prix_initial": 100.0,
+    "prix_actuel": 140.0,
+    "difference": -40.0
+  },
+  {
+    "CODE": 2011821.0,
+    "designation": "PAILLASSE EN GRANIT GRIS",
+    "unite": "M²",
+    "prix_initial": 650.0,
+    "prix_actuel": 650.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011822.0,
+    "designation": "PAILLASSE EN MARBRE JAUNE DE BOUJÂAD",
+    "unite": "M²",
+    "prix_initial": 400.0,
+    "prix_actuel": 550.0,
+    "difference": -150.0
+  },
+  {
+    "CODE": 2011823.0,
+    "designation": "REVÊTEMENT DE SOL EN CARREAUX DE GRÈS CÉRAME D'IMPORTATION 60X60",
+    "unite": "M²",
+    "prix_initial": 290.0,
+    "prix_actuel": 290.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011824.0,
+    "designation": "REVÊTEMENT DE SOL EN CARREAUX DE GRÈS CÉRAME D'IMPORTATION 60X30",
+    "unite": "M²",
+    "prix_initial": 290.0,
+    "prix_actuel": 290.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011825.0,
+    "designation": "REVÊTEMENT DE SOL EN CARREAUX DE GRÈS CÉRAME D'IMPORTATION 15X90",
+    "unite": "M²",
+    "prix_initial": 315.0,
+    "prix_actuel": 380.0,
+    "difference": -65.0
+  },
+  {
+    "CODE": 2011826.0,
+    "designation": "PLINTHES DROITES OU RAMPANTES EN CARREAUX DE GRÈS CÉRAME D'IMPORTATION",
+    "unite": "ML",
+    "prix_initial": 70.0,
+    "prix_actuel": 40.0,
+    "difference": 30.0
+  },
+  {
+    "CODE": 2011827.0,
+    "designation": "MARCHES ET CONTRE MARCHES EN CARREAUX DE GRÈS CÉRAME D'IMPORTATION",
+    "unite": "ML",
+    "prix_initial": 180.0,
+    "prix_actuel": 250.0,
+    "difference": -70.0
+  },
+  {
+    "CODE": 2011828.0,
+    "designation": "REVÊTEMENT MURAL EN CARREAUX DE GRÈS CÉRAME D'IMPORTATION 60X60",
+    "unite": "M²",
+    "prix_initial": 315.0,
+    "prix_actuel": 320.0,
+    "difference": -5.0
+  },
+  {
+    "CODE": 2011829.0,
+    "designation": "REVÊTEMENT MURAL EN CARREAUX DE GRÈS CÉRAME D'IMPORTATION 60X30",
+    "unite": "M²",
+    "prix_initial": 315.0,
+    "prix_actuel": 320.0,
+    "difference": -5.0
+  },
+  {
+    "CODE": 2011830.0,
+    "designation": "REVÊTEMENT MURAL EN CARREAUX DE GRÈS CÉRAME D'IMPORTATION 15X90",
+    "unite": "M²",
+    "prix_initial": 315.0,
+    "prix_actuel": 400.0,
+    "difference": -85.0
+  },
+  {
+    "CODE": 2011831.0,
+    "designation": "REVÊTEMENT DE SOL EN CARREAUX D'IMPORTATION TYPE COMPACTO DE 60X60",
+    "unite": "M²",
+    "prix_initial": 320.0,
+    "prix_actuel": 350.0,
+    "difference": -30.0
+  },
+  {
+    "CODE": 2011832.0,
+    "designation": "REVÊTEMENT DE SOL EN CARREAUX D'IMPORTATION TYPE COMPACTO DE 45 X 45CM",
+    "unite": "M²",
+    "prix_initial": 320.0,
+    "prix_actuel": 350.0,
+    "difference": -30.0
+  },
+  {
+    "CODE": 2011833.0,
+    "designation": "REVÊTEMENT DE SOL EN CARREAUX D'IMPORTATION TYPE COMPACTO DE 30 X 60CM",
+    "unite": "M²",
+    "prix_initial": 320.0,
+    "prix_actuel": 350.0,
+    "difference": -30.0
+  },
+  {
+    "CODE": 2011834.0,
+    "designation": "PLINTHES DROITES OU RAMPANTES EN CARREAUX D'IMPORTATION TYPE COMPACTO DE 10CM DE HAUTEUR CHANFREINÉE",
+    "unite": "ML",
+    "prix_initial": 65.0,
+    "prix_actuel": 49.0,
+    "difference": 16.0
+  },
+  {
+    "CODE": 2011835.0,
+    "designation": "REVÊTEMENT DE SOL EN PIERRE DE TAZA GRISE",
+    "unite": "M²",
+    "prix_initial": 450.0,
+    "prix_actuel": 450.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011836.0,
+    "designation": "REVÊTEMENT MURAL EN PIERRE DE TAZA STRIEE",
+    "unite": "M²",
+    "prix_initial": 400.0,
+    "prix_actuel": 550.0,
+    "difference": -150.0
+  },
+  {
+    "CODE": 2011837.0,
+    "designation": "PLINTHES EN PIERRE DE TAZA",
+    "unite": "ML",
+    "prix_initial": 85.0,
+    "prix_actuel": 85.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011838.0,
+    "designation": "REVÊTEMENT DE SOL EN PIERRE D'OURIKA",
+    "unite": "M²",
+    "prix_initial": 170.0,
+    "prix_actuel": 300.0,
+    "difference": -130.0
+  },
+  {
+    "CODE": 2011839.0,
+    "designation": "PLINTHE EN PIERRE D'OURIKA",
+    "unite": "ML",
+    "prix_initial": 90.0,
+    "prix_actuel": 80.0,
+    "difference": 10.0
+  },
+  {
+    "CODE": 2011840.0,
+    "designation": "REVÊTEMENT MURAL EN CARREAUX FAÏENCE BLANCHE DE 20X20CM",
+    "unite": "M²",
+    "prix_initial": 170.0,
+    "prix_actuel": 220.0,
+    "difference": -50.0
+  },
+  {
+    "CODE": 2011841.0,
+    "designation": "REVÊTEMENT MURAL EN CARREAUX DE GRÈS CÉRAME LOCAL",
+    "unite": "M²",
+    "prix_initial": 260.0,
+    "prix_actuel": 220.0,
+    "difference": 40.0
+  },
+  {
+    "CODE": 2011842.0,
+    "designation": "PLINTHES EN GRÉS CÉRAME DE 10CM LOCAL",
+    "unite": "ML",
+    "prix_initial": 65.0,
+    "prix_actuel": 30.0,
+    "difference": 35.0
+  },
+  {
+    "CODE": 2011843.0,
+    "designation": "FOURNITURE ET POSE DE CARREAUX REV SOL",
+    "unite": "M²",
+    "prix_initial": 190.0,
+    "prix_actuel": 190.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011844.0,
+    "designation": "REVÊTEMENT DU TROTTOIR EN BÉTON SYNTHÉTIQUE",
+    "unite": "M²",
+    "prix_initial": 240.0,
+    "prix_actuel": 320.0,
+    "difference": -80.0
+  },
+  {
+    "CODE": 2011845.0,
+    "designation": "BORDURE DE TROTTOIR T1",
+    "unite": "ML",
+    "prix_initial": 100.0,
+    "prix_actuel": 120.0,
+    "difference": -20.0
+  },
+  {
+    "CODE": 2011846.0,
+    "designation": "BORDURE DE TROTTOIR T2",
+    "unite": "ML",
+    "prix_initial": 120.0,
+    "prix_actuel": 130.0,
+    "difference": -10.0
+  },
+  {
+    "CODE": 2011847.0,
+    "designation": "BORDURE DE TROTTOIR T3",
+    "unite": "ML",
+    "prix_initial": 125.0,
+    "prix_actuel": 150.0,
+    "difference": -25.0
+  },
+  {
+    "CODE": 2011848.0,
+    "designation": "CHAPE EN CIMENT LISSÉE",
+    "unite": "M²",
+    "prix_initial": 50.0,
+    "prix_actuel": 60.0,
+    "difference": -10.0
+  },
+  {
+    "CODE": 2011849.0,
+    "designation": "REVÊTEMENT SOL EN PAVES AUTO BLOQUANTS Y COMPRIS LIT DE SABLE - SIGNALISATION - MARQUAGE",
+    "unite": "M²",
+    "prix_initial": 190.0,
+    "prix_actuel": 190.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011850.0,
+    "designation": "REVÊTEMENT EN MIGNONETTE LAVÉE",
+    "unite": "M²",
+    "prix_initial": 170.0,
+    "prix_actuel": 170.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011851.0,
+    "designation": "PLINTHE EN MIGNONETTE LAVÉE",
+    "unite": "ML",
+    "prix_initial": 45.0,
+    "prix_actuel": 45.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011852.0,
+    "designation": "REVÊTEMENT SOL EN GRANITO POLI",
+    "unite": "M²",
+    "prix_initial": 180.0,
+    "prix_actuel": 180.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011853.0,
+    "designation": "PLINTHE EN GRANITO POLI",
+    "unite": "M²",
+    "prix_initial": 45.0,
+    "prix_actuel": 45.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011854.0,
+    "designation": "REVÊTEMENT MURAL EN CARREAUX DE GRÈS CÉRAME LOCAL 40X40",
+    "unite": "M²",
+    "prix_initial": 190.0,
+    "prix_actuel": 190.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011855.0,
+    "designation": "REVÊTEMENT MURAL EN CARREAUX DE GRÈS CÉRAME LOCAL 60X30",
+    "unite": "M²",
+    "prix_initial": 260.0,
+    "prix_actuel": 260.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011856.0,
+    "designation": "REVÊTEMENT MURAL EN CARREAUX DE GRÈS CÉRAME LOCAL 60X60",
+    "unite": "M²",
+    "prix_initial": 260.0,
+    "prix_actuel": 260.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011857.0,
+    "designation": "REVÊTEMENT SOL EN BEJMAT NATUREL OU EMAILLÉ",
+    "unite": "M²",
+    "prix_initial": 400.0,
+    "prix_actuel": 360.0,
+    "difference": 40.0
+  },
+  {
+    "CODE": 2011858.0,
+    "designation": "PLINTHES EN BEJMAT",
+    "unite": "ML",
+    "prix_initial": 90.0,
+    "prix_actuel": 90.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011859.0,
+    "designation": "REVÊTEMENT TOITURES EN TUILES DEMI-RONDES",
+    "unite": "M²",
+    "prix_initial": 170.0,
+    "prix_actuel": 210.0,
+    "difference": -40.0
+  },
+  {
+    "CODE": 2011860.0,
+    "designation": "CHAPE EN CIMENT POUR RECEVOIR DES REVÊTEMENTS SOUPLES",
+    "unite": "M²",
+    "prix_initial": 50.0,
+    "prix_actuel": 75.0,
+    "difference": -25.0
+  },
+  {
+    "CODE": 2011861.0,
+    "designation": "RAGRÉAGE SUR CARRELAGE EXISTANT (DESTINÉ À RECEVOIR UN REVÊTEMENT SOUPLE)",
+    "unite": "M²",
+    "prix_initial": 55.0,
+    "prix_actuel": 75.0,
+    "difference": -20.0
+  },
+  {
+    "CODE": 2011862.0,
+    "designation": "REVÊTEMENT DE SOL EN PVC, DE TARKET OU SIMILAIRE",
+    "unite": "M²",
+    "prix_initial": 320.0,
+    "prix_actuel": 320.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011863.0,
+    "designation": "REVÊTEMENT SOL SOUPLE EN DALLETTES 50X50 TYPE TARKET OU SIMILAIRE",
+    "unite": "M²",
+    "prix_initial": 500.0,
+    "prix_actuel": 540.0,
+    "difference": -40.0
+  },
+  {
+    "CODE": 2011864.0,
+    "designation": "PLINTHE EN REVÊTEMENT PVC TYPE TARKET DALFLEX DE 0,10 DE HAUTEUR",
+    "unite": "ML",
+    "prix_initial": 120.0,
+    "prix_actuel": 120.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011865.0,
+    "designation": "REVÊTEMENT DE SOL EN MOQUETTE GAMME INTERFACE TYPE TATAMI - RÉFÉRENCE OKUDO OU SIMILAIRE",
+    "unite": "M²",
+    "prix_initial": 780.0,
+    "prix_actuel": 500.0,
+    "difference": 280.0
+  },
+  {
+    "CODE": 2011866.0,
+    "designation": "FOURNITURE ET POSE DE PLINTHE EN BOIS Y COMPRIS PEINTURE",
+    "unite": "ML",
+    "prix_initial": 75.0,
+    "prix_actuel": 75.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011867.0,
+    "designation": "REVÊTEMENT SOL SOUPLE EN LAMES 120X20 TYPE TARKET OU SIMILAIRE",
+    "unite": "M²",
+    "prix_initial": 550.0,
+    "prix_actuel": 550.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011868.0,
+    "designation": "PLINTHE EN BOIS CHÊNE DE 7CM DE HAUTEUR Y COMPRIS VERNIS",
+    "unite": "ML",
+    "prix_initial": 100.0,
+    "prix_actuel": 120.0,
+    "difference": -20.0
+  },
+  {
+    "CODE": 2011869.0,
+    "designation": "JOINT DE DILATATION AU SOL",
+    "unite": "ML",
+    "prix_initial": 100.0,
+    "prix_actuel": 600.0,
+    "difference": -500.0
+  },
+  {
+    "CODE": 2011870.0,
+    "designation": "FOURNITURE ET POSE DE COUVRE JOINT HORIZONTAL",
+    "unite": "ML",
+    "prix_initial": 200.0,
+    "prix_actuel": 420.0,
+    "difference": -220.0
+  },
+  {
+    "CODE": 2011871.0,
+    "designation": "FOURNITURE ET POSE DE COUVRE JOINT VERTICAL",
+    "unite": "ML",
+    "prix_initial": 200.0,
+    "prix_actuel": 320.0,
+    "difference": -120.0
+  },
+  {
+    "CODE": 2011872.0,
+    "designation": "PROFIL DE SEUIL EN INOX BROSSE",
+    "unite": "ML",
+    "prix_initial": 150.0,
+    "prix_actuel": 280.0,
+    "difference": -130.0
+  },
+  {
+    "CODE": 2011873.0,
+    "designation": "REVÊTEMENT EN PARQUET CONTRÔLECOLLE NOYER GRAND TRAFIC OU SIMILAIRE",
+    "unite": "M²",
+    "prix_initial": 600.0,
+    "prix_actuel": 600.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011874.0,
+    "designation": "REVÊTEMENT EN PARQUET DE LA TERRASSE LAMES EN BOIS MASSIF EXOTIQUE IPE OU TECK",
+    "unite": "M²",
+    "prix_initial": 800.0,
+    "prix_actuel": 800.0,
+    "difference": 0.0
+  },
+  {
+    "CODE": 2011875.0,
+    "designation": "PARQUET STRATIFIÉ DE 8MM D'ÉPAISSEUR Y COMPRIS PLINTHES",
+    "unite": "M²",
+    "prix_initial": 300.0,
+    "prix_actuel": 390.0,
+    "difference": -90.0
+  },
+  {
+    "CODE": 2011876.0,
+    "designation": "TAPIS BROSSÉ",
+    "unite": "M²",
+    "prix_initial": 350.0,
+    "prix_actuel": 450.0,
+    "difference": -100.0
+  },
+  {
+    "CODE": 2011877.0,
+    "designation": "CHAPE EN CIMENT LISSÉE À L'HÉLICOPTÈRE Y COMPRIS PEINTURE ÉPOXY ANTI POUSSIÈRE",
+    "unite": "M²",
+    "prix_initial": 150.0,
+    "prix_actuel": 280.0,
+    "difference": -130.0
+  },
+  {
+    "CODE": 2011878.0,
+    "designation": "FOURNITURE ET POSE DE RÉSINE ÉPOXY",
+    "unite": "M²",
+    "prix_initial": 150.0,
+    "prix_actuel": 180.0,
+    "difference": -30.0
+  },
+  {
+    "CODE": 2011879.0,
+    "designation": "REVÊTEMENT D'UN TAPIS POUR SALLE DE PRIÈRE",
+    "unite": "M²",
+    "prix_initial": 100.0,
+    "prix_actuel": 180.0,
+    "difference": -80.0
+  },
+  {
+    "CODE": 2011880.0,
+    "designation": "REVÊTEMENT PARQUET EN BOIS COMPOSITE TYPE PRIMAWOOD OU SIMILAIRE",
+    "unite": "M²",
+    "prix_initial": 650.0,
+    "prix_actuel": 400.0,
+    "difference": 250.0
+  }
+]

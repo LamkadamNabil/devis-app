@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "nom": "SARL ABC Construction",
+    "adresse": "123 Rue des Bâtisseurs, Alger",
+    "telephone": "0555 123 456",
+    "email": "contact@abc-construction.dz"
+  },
+  {
+    "id": 2,
+    "nom": "EURL Travaux Plus",
+    "adresse": "45 Avenue de l'Industrie, Oran",
+    "telephone": "0661 789 012",
+    "email": "info@travauxplus.dz"
+  }
+]
