@@ -1,17 +1,21 @@
 // ============================================
 // GOOGLE APPS SCRIPT - Backend pour Devis App
 // ============================================
-// Instructions:
-// 1. Créer une nouvelle Google Sheet avec 3 onglets: "clients", "agences", "devis"
-// 2. Aller sur Extensions > Apps Script
-// 3. Coller ce code et sauvegarder
-// 4. Déployer > Nouvelle déploiement > Application Web
-// 5. Accès: "Tout le monde" > Déployer
-// 6. Copier l'URL du déploiement dans votre app React
+// IMPORTANT - Paramètres de déploiement (Web App):
+//   → Exécuter en tant que : MOI (votre compte Google)   ← OBLIGATOIRE
+//   → Qui a accès          : Tout le monde
+//
+// Étapes:
+// 1. Coller ce code dans l'éditeur Apps Script
+// 2. Exécuter initializeSheets() manuellement (Run > initializeSheets)
+//    et accepter les autorisations demandées
+// 3. Déployer > Nouvelle déploiement > Application Web
+//    → Exécuter en tant que : Moi
+//    → Accès : Tout le monde
+// 4. Copier l'URL /exec dans le fichier .env de React
 
-const SPREADSHEET_ID = 'VOTRE_SPREADSHEET_ID_ICI'; // Remplacer par votre ID
+const SPREADSHEET_ID = '18s0RKPDNMNQNPs8Cmal1NhYcWWTTbiOHIT-K8qQvaNg';
 
-// Headers pour chaque feuille
 const HEADERS = {
   clients: ['id', 'nom', 'adresse', 'ice', 'createdAt'],
   agences: ['id', 'nom', 'createdAt'],
@@ -24,37 +28,23 @@ const HEADERS = {
 
 function getSheet(sheetName) {
   const ss = SpreadsheetApp.openById(SPREADSHEET_ID);
-  let sheet = ss.getSheetByName(sheetName);
-  
-  // Créer la feuille si elle n'existe pas
-  if (!sheet) {
-    sheet = ss.insertSheet(sheetName);
-    sheet.appendRow(HEADERS[sheetName]);
-  }
-  
-  return sheet;
+  return ss.getSheetByName(sheetName);
 }
 
 function sheetToJson(sheetName) {
   const sheet = getSheet(sheetName);
+  if (!sheet) return [];
   const data = sheet.getDataRange().getValues();
-  
   if (data.length <= 1) return [];
-  
   const headers = data[0];
-  const rows = data.slice(1);
-  
-  return rows.map(row => {
+  return data.slice(1).map(row => {
     const obj = {};
-    headers.forEach((header, idx) => {
-      let value = row[idx];
-      // Parse JSON strings for complex fields
-      if ((header === 'headerInfo' || header === 'lignes') && typeof value === 'string' && value) {
-        try {
-          value = JSON.parse(value);
-        } catch (e) {}
+    headers.forEach((h, i) => {
+      let v = row[i];
+      if ((h === 'headerInfo' || h === 'lignes') && typeof v === 'string' && v) {
+        try { v = JSON.parse(v); } catch(e) {}
       }
-      obj[header] = value;
+      obj[h] = v;
     });
     return obj;
   });
@@ -62,39 +52,32 @@ function sheetToJson(sheetName) {
 
 function addRow(sheetName, data) {
   const sheet = getSheet(sheetName);
+  if (!sheet) throw new Error('Sheet not found: ' + sheetName);
   const headers = HEADERS[sheetName];
-  
-  const row = headers.map(header => {
-    let value = data[header];
-    // Stringify complex objects
-    if (typeof value === 'object' && value !== null) {
-      value = JSON.stringify(value);
-    }
-    return value || '';
+  const row = headers.map(h => {
+    let v = data[h];
+    if (typeof v === 'object' && v !== null) v = JSON.stringify(v);
+    return v !== undefined && v !== null ? v : '';
   });
-  
   sheet.appendRow(row);
   return data;
 }
 
 function updateRow(sheetName, id, data) {
   const sheet = getSheet(sheetName);
-  const allData = sheet.getDataRange().getValues();
-  const headers = allData[0];
-  const idColIndex = headers.indexOf('id');
-  
-  for (let i = 1; i < allData.length; i++) {
-    if (String(allData[i][idColIndex]) === String(id)) {
-      headers.forEach((header, idx) => {
-        if (data.hasOwnProperty(header)) {
-          let value = data[header];
-          if (typeof value === 'object' && value !== null) {
-            value = JSON.stringify(value);
-          }
-          sheet.getRange(i + 1, idx + 1).setValue(value);
+  if (!sheet) throw new Error('Sheet not found: ' + sheetName);
+  const all = sheet.getDataRange().getValues();
+  const idIdx = all[0].indexOf('id');
+  for (let i = 1; i < all.length; i++) {
+    if (String(all[i][idIdx]) === String(id)) {
+      all[0].forEach((h, idx) => {
+        if (data[h] !== undefined) {
+          let v = data[h];
+          if (typeof v === 'object') v = JSON.stringify(v);
+          sheet.getRange(i + 1, idx + 1).setValue(v);
         }
       });
-      return { success: true, id: id };
+      return { success: true };
     }
   }
   return { success: false, error: 'Not found' };
@@ -102,12 +85,11 @@ function updateRow(sheetName, id, data) {
 
 function deleteRow(sheetName, id) {
   const sheet = getSheet(sheetName);
-  const allData = sheet.getDataRange().getValues();
-  const headers = allData[0];
-  const idColIndex = headers.indexOf('id');
-  
-  for (let i = 1; i < allData.length; i++) {
-    if (String(allData[i][idColIndex]) === String(id)) {
+  if (!sheet) throw new Error('Sheet not found: ' + sheetName);
+  const all = sheet.getDataRange().getValues();
+  const idIdx = all[0].indexOf('id');
+  for (let i = 1; i < all.length; i++) {
+    if (String(all[i][idIdx]) === String(id)) {
       sheet.deleteRow(i + 1);
       return { success: true };
     }
@@ -120,74 +102,77 @@ function deleteRow(sheetName, id) {
 // ============================================
 
 function doGet(e) {
-  const params = e.parameter;
+  const params = (e && e.parameter) ? e.parameter : {};
   const action = params.action;
   const sheet = params.sheet;
-  
   let result;
-  
+
   try {
-    switch (action) {
-      case 'getAll':
-        result = sheetToJson(sheet);
-        break;
-      case 'getCounter':
-        const devisData = sheetToJson('devis');
-        result = { counter: devisData.length + 1 };
-        break;
-      default:
-        result = { error: 'Unknown action' };
+    if (action === 'getAll') {
+      result = sheetToJson(sheet);
+    } else if (action === 'getCounter') {
+      result = { counter: sheetToJson('devis').length + 1 };
+    } else if (action === 'health') {
+      result = { status: 'ok', spreadsheetId: SPREADSHEET_ID };
+    } else {
+      result = { error: 'Unknown action: ' + action };
     }
-  } catch (error) {
-    result = { error: error.toString() };
+  } catch(err) {
+    result = { error: err.toString() };
   }
-  
+
   return ContentService
     .createTextOutput(JSON.stringify(result))
     .setMimeType(ContentService.MimeType.JSON);
 }
 
 function doPost(e) {
-  const params = JSON.parse(e.postData.contents);
-  const action = params.action;
-  const sheet = params.sheet;
-  const data = params.data;
-  const id = params.id;
-  
-  let result;
-  
+  let params;
   try {
-    switch (action) {
-      case 'add':
-        result = addRow(sheet, data);
-        break;
-      case 'update':
-        result = updateRow(sheet, id, data);
-        break;
-      case 'delete':
-        result = deleteRow(sheet, id);
-        break;
-      default:
-        result = { error: 'Unknown action' };
-    }
-  } catch (error) {
-    result = { error: error.toString() };
+    params = JSON.parse(e.postData.contents);
+  } catch(err) {
+    return ContentService
+      .createTextOutput(JSON.stringify({ error: 'Invalid JSON body' }))
+      .setMimeType(ContentService.MimeType.JSON);
   }
-  
+
+  const { action, sheet, data, id } = params;
+  let result;
+
+  try {
+    if (action === 'add') {
+      result = addRow(sheet, data);
+    } else if (action === 'update') {
+      result = updateRow(sheet, id, data);
+    } else if (action === 'delete') {
+      result = deleteRow(sheet, id);
+    } else {
+      result = { error: 'Unknown action: ' + action };
+    }
+  } catch(err) {
+    result = { error: err.toString() };
+  }
+
   return ContentService
     .createTextOutput(JSON.stringify(result))
     .setMimeType(ContentService.MimeType.JSON);
 }
 
 // ============================================
-// FONCTION D'INITIALISATION (à exécuter une fois)
+// INITIALISATION (exécuter UNE FOIS manuellement)
 // ============================================
 
 function initializeSheets() {
-  // Créer les feuilles avec les headers
-  Object.keys(HEADERS).forEach(sheetName => {
-    getSheet(sheetName);
+  const ss = SpreadsheetApp.openById(SPREADSHEET_ID);
+  Object.keys(HEADERS).forEach(name => {
+    let sheet = ss.getSheetByName(name);
+    if (!sheet) {
+      sheet = ss.insertSheet(name);
+    }
+    if (sheet.getLastRow() === 0) {
+      sheet.appendRow(HEADERS[name]);
+    }
+    Logger.log('Feuille ' + name + ' OK');
   });
-  
-  Logger.log('Feuilles initialisées avec succès!');
+  Logger.log('Initialisation terminée!');
 }

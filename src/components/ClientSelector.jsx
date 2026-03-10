@@ -5,8 +5,7 @@ export default function ClientSelector({ clients, selectedClient, onSelect, onAd
   const [newClient, setNewClient] = useState({
     nom: '',
     adresse: '',
-    telephone: '',
-    email: '',
+    ice: '',
   })
   const [error, setError] = useState('')
 
@@ -36,7 +35,7 @@ export default function ClientSelector({ clients, selectedClient, onSelect, onAd
 
     // Check if client with same name already exists
     const exists = clients.some(
-      (c) => c.nom.toLowerCase().trim() === newClient.nom.toLowerCase().trim()
+      (c) => (c.nom || '').toLowerCase().trim() === newClient.nom.toLowerCase().trim()
     )
     if (exists) {
       setError('Un client avec ce nom existe déjà')
@@ -46,23 +45,21 @@ export default function ClientSelector({ clients, selectedClient, onSelect, onAd
     // Generate new ID
     const maxId = clients.reduce((max, c) => Math.max(max, c.id), 0)
     const clientToAdd = {
-      ...newClient,
       id: maxId + 1,
       nom: newClient.nom.trim(),
       adresse: newClient.adresse.trim(),
-      telephone: newClient.telephone.trim(),
-      email: newClient.email.trim(),
+      ice: newClient.ice.trim(),
     }
 
     onAddClient(clientToAdd)
     setShowModal(false)
-    setNewClient({ nom: '', adresse: '', telephone: '', email: '' })
+    setNewClient({ nom: '', adresse: '', ice: '' })
     onSelect(clientToAdd)
   }
 
   const closeModal = () => {
     setShowModal(false)
-    setNewClient({ nom: '', adresse: '', telephone: '', email: '' })
+    setNewClient({ nom: '', adresse: '', ice: '' })
     setError('')
   }
 
@@ -96,8 +93,7 @@ export default function ClientSelector({ clients, selectedClient, onSelect, onAd
       {selectedClient && (
         <div className="client-details">
           <span className="client-detail-item">📍 {selectedClient.adresse || '—'}</span>
-          <span className="client-detail-item">📞 {selectedClient.telephone || '—'}</span>
-          <span className="client-detail-item">✉️ {selectedClient.email || '—'}</span>
+          <span className="client-detail-item">🏷️ ICE: {selectedClient.ice || '—'}</span>
         </div>
       )}
 
@@ -128,25 +124,16 @@ export default function ClientSelector({ clients, selectedClient, onSelect, onAd
                     type="text"
                     value={newClient.adresse}
                     onChange={handleInputChange('adresse')}
-                    placeholder="Ex: 123 Rue des Bâtisseurs, Alger"
+                    placeholder="Ex: 123 Rue des Bâtisseurs, Casablanca"
                   />
                 </label>
                 <label className="modal-label">
-                  Téléphone
+                  ICE
                   <input
                     type="text"
-                    value={newClient.telephone}
-                    onChange={handleInputChange('telephone')}
-                    placeholder="Ex: 0555 123 456"
-                  />
-                </label>
-                <label className="modal-label">
-                  Email
-                  <input
-                    type="email"
-                    value={newClient.email}
-                    onChange={handleInputChange('email')}
-                    placeholder="Ex: contact@entreprise.dz"
+                    value={newClient.ice}
+                    onChange={handleInputChange('ice')}
+                    placeholder="Ex: 001234567000012"
                   />
                 </label>
               </div>
