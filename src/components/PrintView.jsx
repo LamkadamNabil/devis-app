@@ -92,8 +92,6 @@ export default function PrintView({ headerInfo, client, lignes, onClose }) {
               }, {})
 
               const agenceGroups = Object.entries(groupedByAgence)
-              let globalIndex = 0
-
               return agenceGroups.map(([agenceKey, group]) => (
                 <>
                   {/* Agence section header */}
@@ -104,12 +102,11 @@ export default function PrintView({ headerInfo, client, lignes, onClose }) {
                   </tr>
                   {/* Items in this agence */}
                   {group.items.map((l) => {
-                    globalIndex++
                     const pu = Number(l.prix_actuel)
                     const total = pu * Number(l.quantite)
                     return (
                       <tr key={`${l.CODE}-${l.agenceId || 'null'}`}>
-                        <td className="col-n">{globalIndex}</td>
+                        <td className="col-n">{Number(l.CODE).toFixed(0)}</td>
                         <td className="col-designation">{l.designation}</td>
                         <td className="col-u">{l.unite}</td>
                         <td className="col-qte">{Number(l.quantite).toLocaleString('fr-FR')}</td>
@@ -152,7 +149,7 @@ export default function PrintView({ headerInfo, client, lignes, onClose }) {
         </div>
 
         <div className="print-footer">
-          SOGERAY S.A.R.L. - Lot N° 60 Rce Hay Abou Bakr, MOHAMMADIA - CASA | Tél/Fax: 05 22 32 19 22
+          SOGERAY S.A.R.L. - 16, Rue Ishak Chirazi 4° Etg App 10 Casablanca MAROC - TEL 212522231823
         </div>
       </div>
     </div>
